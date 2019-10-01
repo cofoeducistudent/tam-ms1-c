@@ -1,24 +1,50 @@
-body{
- margin: 0px;
- border: 0px;
- padding: 0px;
- font-family: "Exo",sans-serif;
+/* pre-emptive remove extra spaces from elements an */
+
+/* Set default font-family */
+
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: "Exo", sans-serif;
 }
 
+/* give extra head space to nav items */
 
-
-.nav-item{
+.nav-item {
     padding-top: 10px;
 }
-.bef-logo {
-width:200px;
-height: auto;
+
+/* Make title part ("Attachment") uppercase */
+
+.make-ucase {
+    text-transform: uppercase;
 }
 
+.make-ucase:hover {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    font-weight: 900;
+    color: #b2b4b2;
+}
 
- 
+.release-date {
+    font-size: 1rem;
+}
 
-.make-ucase{
+/* Site block Spacer */
 
-    text-transform: uppercase;
+.spacer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.spacer h1 {
+    font-size: 1rem;
 }
