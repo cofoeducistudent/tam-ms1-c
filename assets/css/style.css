@@ -7,16 +7,39 @@ body {
     border: 0px;
     padding: 0px;
     font-family: "Exo", sans-serif;
+   
 }
+
+
+
+/* Standard Navbar */
+.custom-navbar-standard{
+
+    position: fixed;
+
+    width:100%;
+
+    z-index: 1000;
+    top: 0px;
+    left:0px;
+
+    /* opacity: .25; */
+}
+
+
 
 /* give extra head space to nav items */
-
 .nav-item {
     padding-top: 10px;
+    min-height: 25px;
 }
 
-/* Make title part ("Attachment") uppercase */
 
+
+
+
+
+/* Make title part ("Attachment") uppercase */
 .make-ucase {
     text-transform: uppercase;
 }
@@ -38,13 +61,69 @@ body {
 .spacer {
     width: 100%;
     min-height: 100px;
-    background-color: #f3f3f3;
+    /* background-color: #d4cdcd; */
+    background-color: #eb7221;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 10px;
 }
 
+
+/* Site row content spacer */
 .spacer h1 {
     font-size: 1rem;
+}
+
+
+#entity-face-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+#video-form{
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.make-images-universal-size1 {
+width: 100%;
+height: auto;
+}
+
+
+.first-letter{
+
+    font-size: 2rem;
+
+}
+
+/* Context */
+.content-text-size{
+
+font-size: 1.5rem;
+
+}
+
+
+/* Section Title */
+.section-title{
+
+    margin-top:20px;
+
+}
+
+
+#bottom-bar{
+
+background-color: #0000;
+color: wheat;
+min-height: 400px;
+
+
 }
