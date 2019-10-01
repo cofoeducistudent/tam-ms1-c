@@ -1,7 +1,24 @@
 body{
-
  margin: 0px;
  border: 0px;
  padding: 0px;
+ font-family: "Exo",sans-serif;
+}
 
+
+
+.nav-item{
+    padding-top: 10px;
+}
+.bef-logo {
+width:200px;
+height: auto;
+}
+
+
+ 
+
+.make-ucase{
+
+    text-transform: uppercase;
 }
