@@ -1,49 +1,29 @@
 /* pre-emptive remove extra spaces from elements an */
-
 /* Set default font-family */
-
 body {
     margin: 0px;
     border: 0px;
     padding: 0px;
     font-family: "Exo", sans-serif;
-   
 }
-
-
-
 /* Standard Navbar */
-.custom-navbar-standard{
-
+.custom-navbar-standard {
     position: fixed;
-
-    width:100%;
-
+    width: 100%;
     z-index: 1000;
     top: 0px;
-    left:0px;
-
+    left: 0px;
     /* opacity: .25; */
 }
-
-
-
 /* give extra head space to nav items */
 .nav-item {
     padding-top: 10px;
     min-height: 25px;
 }
-
-
-
-
-
-
 /* Make title part ("Attachment") uppercase */
 .make-ucase {
     text-transform: uppercase;
 }
-
 .make-ucase:hover {
     transition-property: all;
     transition-duration: .5s;
@@ -51,79 +31,67 @@ body {
     font-weight: 900;
     color: #b2b4b2;
 }
-
 .release-date {
     font-size: 1rem;
 }
-
 /* Site block Spacer */
-
+/* Spacer Box -additional info */
 .spacer {
     width: 100%;
     min-height: 100px;
     /* background-color: #d4cdcd; */
-    background-color: #eb7221;
+    background-color: #f0e9e4;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 10px;
 }
-
-
 /* Site row content spacer */
 .spacer h1 {
     font-size: 1rem;
 }
-
-
+/* Main Content box */
+.main-content {
+    width: 100%;
+    min-height: 100px;
+    /* background-color: #d4cdcd; */
+    background-color: #f0f1eb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+¸
 #entity-face-video {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
-
-#video-form{
-
+#video-form {
     width: 100%;
     height: auto;
     border-radius: 10px;
-
 }
-
 .make-images-universal-size1 {
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 }
-
-
-.first-letter{
-
+.first-letter {
     font-size: 2rem;
-
 }
-
 /* Context */
-.content-text-size{
-
-font-size: 1.5rem;
-
+.content-text-size {
+    font-size: 1.5rem;
 }
-
-
 /* Section Title */
-.section-title{
-
-    margin-top:20px;
-
+.section-title {
+    margin-top: 20px;
 }
-
-
-#bottom-bar{
-
-background-color: #0000;
-color: wheat;
-min-height: 400px;
-
-
+.social-media-icons{
+    font-size: 2em;
+}
+#bottom-bar {
+    background-color: #0000;
+    color: 000;
+    min-height: 400px;
 }
