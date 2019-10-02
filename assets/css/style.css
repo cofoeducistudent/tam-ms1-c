@@ -154,3 +154,21 @@ body {
 .stand-out-this {
     color: #319fa6
 }
+
+/* Code from Stackoverflow - Philip Feldmann */
+/* Keep text from overspilling out of columns */
+.keep-insideBSol
+{
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+ }
+
+
+ .ipb-width{
+
+width: 50%;
+
+ }
