@@ -15,16 +15,28 @@ body {
     top: 0px;
     left: 0px;
     opacity: .10;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
     transition-property: all;
-    transition-duration: 1.5s;
-    transition-timing-function: ease-out;
+    -webkit-transition-duration: 1.5s;
+         -o-transition-duration: 1.5s;
+            transition-duration: 1.5s;
+    -webkit-transition-timing-function: ease-out;
+         -o-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
     padding-top: 10px;
 }
 /* Reveal Menu on Hover */
 .custom-navbar-standard:hover {
+    -webkit-transition-property: all;
+    -o-transition-property: all;
     transition-property: all;
-    transition-duration: .2s;
-    transition-timing-function: ease-in;
+    -webkit-transition-duration: .2s;
+         -o-transition-duration: .2s;
+            transition-duration: .2s;
+    -webkit-transition-timing-function: ease-in;
+         -o-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
     opacity: 100;
     padding-top: 30px;
 }
@@ -39,9 +51,15 @@ body {
 }
 /* Alter tittle slightly as mouse hovers */
 .make-ucase:hover {
+    -webkit-transition-property: all;
+    -o-transition-property: all;
     transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .5s;
+         -o-transition-duration: .5s;
+            transition-duration: .5s;
+    -webkit-transition-timing-function: ease-in-out;
+         -o-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
     font-weight: 900;
     color: #b2b4b2;
 }
@@ -85,8 +103,6 @@ body {
     height: auto;
     border-radius: 10px;
 }
-
-
 /* uniform inmage sizing & rounded corners*/
 .make-images-universal-size1 {
     width: 100%;
@@ -115,7 +131,6 @@ body {
 /* The Bottom info Bar */
 .bottom-bar h1 {
     font-size: 1rem;
-   
 }
 .bottom-bar h1 ul li {
     list-style: none;
@@ -123,21 +138,10 @@ body {
 .bottom-bar h1 ul li a {
     text-decoration: none;
 }
- 
-
- 
 .main-content a:hover {
    color:#319fa6;
     font-size: 1.5rem;
-    
-   
 }
-
-
-
-
-
-
 /* Ensure contact form with uses maximum width space in container */
 .contact-form {
     width: 100%;
@@ -151,15 +155,18 @@ body {
 /* The social media icons- increase the size to stand out a bit */
 .social-media-icons {
     font-size: 2.5em;
-     
 }
-
 .social-media-icons:hover {
      color: #235b5f;
-
+     -webkit-transition-property: all;
+     -o-transition-property: all;
      transition-property: all;
-     transition-timing-function: ease-in-out;
-     transition-duration: .5s;
+     -webkit-transition-timing-function: ease-in-out;
+          -o-transition-timing-function: ease-in-out;
+             transition-timing-function: ease-in-out;
+     -webkit-transition-duration: .5s;
+          -o-transition-duration: .5s;
+             transition-duration: .5s;
      font-size: 3em;
      padding:5px 5px;
 }
@@ -167,28 +174,19 @@ body {
 .stand-out-this {
     color: #319fa6
 }
-
 /* Code from Stackoverflow - Philip Feldmann */
 /* Keep text from overspilling out of columns */
 .keep-insideBSol
 {
-    -moz-hyphens:auto;
     -ms-hyphens:auto;
     -webkit-hyphens:auto;
     hyphens:auto;
     word-wrap:break-word;
  }
-
-
  .ipb-width{
-
 width: 50%;
-
  }
-
-
  .embd-video{
-
     width: 100%;
     height:auto;
  }
