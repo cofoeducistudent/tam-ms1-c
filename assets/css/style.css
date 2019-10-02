@@ -125,6 +125,19 @@ body {
 }
  
 
+ 
+.main-content a:hover {
+   color:#319fa6;
+    font-size: 1.5rem;
+    
+   
+}
+
+
+
+
+
+
 /* Ensure contact form with uses maximum width space in container */
 .contact-form {
     width: 100%;
