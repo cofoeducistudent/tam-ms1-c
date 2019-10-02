@@ -37,6 +37,7 @@ body {
 .make-ucase {
     text-transform: uppercase;
 }
+/* Alter tittle slightly as mouse hovers */
 .make-ucase:hover {
     transition-property: all;
     transition-duration: .5s;
@@ -101,18 +102,42 @@ body {
     margin-top: 20px;
     color: #14152e;
 }
-#bottom-bar {
+/* Bottom info-bar section */
+.bottom-bar {
     background-color: #0000;
     color: #000;
-    min-height: 400px;
+    min-height: 200px;
 }
+/* The Bottom info Bar */
+.bottom-bar h1 {
+    font-size: 1rem;
+   
+}
+.bottom-bar h1 ul li {
+    list-style: none;
+}
+.bottom-bar h1 ul li a {
+    text-decoration: none;
+}
+ 
+
+/* Ensure contact form with uses maximum width space in container */
 .contact-form {
     width: 100%;
 }
+/* Then text area box size within the contact form area */
 .entry-box {
     width: 100%;
     height: 400px;
 }
+/* The social media icons- increase the size to stand out a bit */
 .social-media-icons {
-    font-size: 2em;
+    font-size: 3em;
+}
+.social-media-icons:hover {
+     color: #235b5f;
+}
+/* class for some text to stand out */
+.stand-out-this {
+    color: #319fa6
 }
