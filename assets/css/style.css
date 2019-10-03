@@ -247,7 +247,7 @@ body {
 
 /* Press kit download poster formatting */
 .press-kit-format {
-    width: 98%;
+    width: 30%;
     height: auto;
     align-content: center;
     font-size: 1.5rem;
@@ -257,26 +257,24 @@ body {
 }
 
 .press-kit-format:hover {
-    width: 100%;
+    width: 50%;
     height: auto;
     align-content: center;
 
    
 }
 
-/* Download call-out */
-.download-callout{
+ 
 
-border-radius: 10px;
-font-size: 4rem;
+/* .press-kit-box-content {
 
-color: #b2b4b2;
+    font-size: 4rem;
 
-}
+} */
 
 
-.fa-hand-point-left:hover {
+/* .fa-hand-point-left:hover {
 
 font-size: 6rem;
 
-}
+} */
