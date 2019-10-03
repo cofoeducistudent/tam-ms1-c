@@ -121,11 +121,17 @@ body {
 .first-letter {
     font-size: 2rem;
 }
+
+
 /* The general content  text size */
 .content-text-size {
     margin-top: 10px;
     font-size: 1rem;
+    text-align: justify;
 }
+
+
+
 /* Section Title */
 .section-title {
     margin-top: 20px;
@@ -198,7 +204,7 @@ body {
 }
 /* Form  name input box width */
 .ipb-width {
-    width: 50%;
+    width: 75%;
     border-radius: 5px;
     border: solid 1px;
     color: var(--form-boxes-border-color);
