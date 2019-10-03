@@ -103,7 +103,7 @@ body {
     height: auto;
     border-radius: 10px;
 }
-/* uniform inmage sizing & rounded corners*/
+/* uniform image sizing & rounded corners*/
 .make-images-universal-size1 {
     width: 100%;
     height: auto;
@@ -146,7 +146,7 @@ body {
 .contact-form {
     width: 100%;
 }
-/* Then text area box size within the contact form area */
+/* Text area box size within the contact form area */
 .entry-box {
     width: 100%;
     height: 400px;
@@ -183,9 +183,13 @@ body {
     hyphens:auto;
     word-wrap:break-word;
  }
+
+ /* Form  name input box width */
  .ipb-width{
 width: 50%;
  }
+
+ /* Embeded video trailer size */
  .embd-video{
     width: 100%;
     height:auto;
