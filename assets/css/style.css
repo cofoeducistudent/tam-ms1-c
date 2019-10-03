@@ -1,24 +1,20 @@
+/* The Attachment movie CSS Style Sheet */
+/* Coder :Clement Ofoedu  3/10/2019*/
 /* pre-emptive remove extra spaces from elements an */
-
 /* Set default font-family */
-
 body {
     margin: 0px;
     border: 0px;
     padding: 0px;
     font-family: "Exo", sans-serif;
-
-
     /* CSS VAriable to setup global box coloring */
-    --main-content-border-color: #eeebf7;
+    --main-content-border-color: #f8f6fd;
     --spacer-border-color: #e9e9ec;
-    --form-boxes-border-color:#b5a9da;
+    /* --form-boxes-border-color:#b5a9da; */
+    --form-boxes-border-color: #BBBBBE;
 }
-
 /* Standard Navbar */
-
 /* Hide Navbar by making making it translucent */
-
 .custom-navbar-standard {
     position: fixed;
     width: 100%;
@@ -37,9 +33,7 @@ body {
     transition-timing-function: ease-out;
     padding-top: 10px;
 }
-
 /* Reveal Menu on Hover */
-
 .custom-navbar-standard:hover {
     -webkit-transition-property: all;
     -o-transition-property: all;
@@ -53,22 +47,16 @@ body {
     opacity: 100;
     padding-top: 30px;
 }
-
 /* give extra head space to nav items */
-
 .nav-item {
     padding-top: 10px;
     min-height: 25px;
 }
-
 /* Make title part ("Attachment") uppercase */
-
 .make-ucase {
     text-transform: uppercase;
 }
-
 /* Alter tittle slightly as mouse hovers */
-
 .make-ucase:hover {
     -webkit-transition-property: all;
     -o-transition-property: all;
@@ -82,15 +70,11 @@ body {
     font-weight: 900;
     color: #b2b4b2;
 }
-
 .release-date {
     font-size: 1rem;
 }
-
 /* Site block Spacer */
-
 /* Spacer Box -additional info */
-
 .spacer {
     width: 100%;
     min-height: 100px;
@@ -101,15 +85,11 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
-
 /* Site row content spacer */
-
 .spacer h1 {
     font-size: 1rem;
 }
-
 /* Main Content box */
-
 .main-content {
     width: 100%;
     min-height: 100px;
@@ -120,94 +100,76 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
-
+/* The looping video of the entity's face */
 #entity-face-video {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
+/* Put some form on the trailer video */
 #video-form {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
 /* uniform image sizing & rounded corners*/
-
 .make-images-universal-size1 {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
 .first-letter {
     font-size: 2rem;
 }
-
-/* Context */
-
+/* The general content  text size */
 .content-text-size {
     margin-top: 10px;
     font-size: 1rem;
 }
-
 /* Section Title */
-
 .section-title {
     margin-top: 20px;
     color: #14152e;
 }
-
 /* Bottom info-bar section */
-
 .bottom-bar {
     background-color: #0000;
     color: #000;
     min-height: 200px;
 }
-
 /* The Bottom info Bar */
-
 .bottom-bar h1 {
     font-size: 1rem;
 }
-
 .bottom-bar h1 ul li {
     list-style: none;
 }
-
 .bottom-bar h1 ul li a {
     text-decoration: none;
 }
-
+.main-content a {
+    color: #319fa6;
+}
+/* make lower nav-icons pop */
 .main-content a:hover {
     color: #319fa6;
     font-size: 1.5rem;
 }
-
 /* Ensure contact form with uses maximum width space in container */
-
 .contact-form {
     width: 100%;
-   
 }
-
 /* Text area box size within the contact form area */
-
 .entry-box {
     width: 100%;
     height: 400px;
     border-radius: 10px;
     color: var(--form-boxes-border-color);
 }
-
 /* The social media icons- increase the size to stand out a bit */
-
 .social-media-icons {
     font-size: 2.5em;
 }
-
 .social-media-icons:hover {
     color: #235b5f;
     -webkit-transition-property: all;
@@ -222,53 +184,39 @@ body {
     font-size: 3em;
     padding: 5px 5px;
 }
-
 /* class for some text to stand out */
-
 .stand-out-this {
     color: #319fa6
 }
-
 /* Code from Stackoverflow - Philip Feldmann */
-
 /* Keep text from overspilling out of columns */
-
 .keep-insideBSol {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
     word-wrap: break-word;
 }
-
 /* Form  name input box width */
-
 .ipb-width {
     width: 50%;
     border-radius: 5px;
     border: solid 1px;
     color: var(--form-boxes-border-color);
 }
-
 /* Embeded video trailer size */
-
 .embd-video {
     width: 100%;
     height: auto;
-
 }
-
 /* Press kit download poster formatting */
-
 .press-kit-format {
     width: 30%;
     height: auto;
     align-content: center;
     font-size: 1.5rem;
     border-radius: 10px;
-
-    box-shadow: 4px 4px  var(--form-boxes-border-color);
+    box-shadow: 4px 4px var(--form-boxes-border-color);
 }
-
 .press-kit-format:hover {
     width: 50%;
     height: auto;
