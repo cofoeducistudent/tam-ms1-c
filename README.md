@@ -148,10 +148,10 @@ To Validtae the need for the features, I carried out a user story process.
 |4|As a User|I need a behind-the-scenes section|So that I can understand what type of film production it is and if it's something that is of interest to me|
 |5|As a User|I need a contacts form or page|So that I can find out a bit more about the film if I need to|
 |6|As an Owner|I need a navigation bar|So that I can navigate through the site easily|
-|7|As an Owner|I need an About section|So that I can tell potential customers quickly what the film is about|
-|8|As an Owner|I need a trailer section|So that I can entice potential customers to come to see the film|
-|9|As an Owner|I need a behind the scenes section|So that I can generate more interest from film fans|
-|10|As an Owner|I need a contacts form|So that I can gather contact information and data from my customers|
+|7|As an Owner|I need an About section|So that I can tell potential users quickly what the film is about|
+|8|As an Owner|I need a trailer section|So that I can entice potential users to come to see the film|
+|9|As an Owner|I need a behind the scenes section|So that I can satisfy interest from users - film fans|
+|10|As an Owner|I need a contacts form|So that I can gather contact information and data from my users|
 
 ---
 
@@ -164,13 +164,12 @@ To Validtae the need for the features, I carried out a user story process.
 ### In summary
 1. I will build a single-scroll-page website
 2. I will have the following **Explicit features** ( Requested by the client).
-
 * About section
 * Trailer section
 * Production (behind the scenes section)
 * Contact section
 * Download section
-3. I will have  **Implicit features** decided by me as the web developer.
+3. I will implement  **Implicit features** decided by me as the web developer.
 
 4. The website Sending communication out to the user is ** deemed out of scope.**
 
@@ -190,16 +189,29 @@ To Validtae the need for the features, I carried out a user story process.
 
 # Structure
 
-The information data presented on the site is intregrated within the HTML file.
+**Information data** presented on the site is intregrated within the HTML file.
 
 BEF wanted a basic site for initial promotion. 
 
-It is feasible that they may wish for a more elaborate construct in the future. However, at present having the data content integrated withinbn the html means I will have no need to involve myself with a database such as **MySql** to read from.
-
+It is feasible that they may wish for a more elaborate construct in the future. However, at present having the data content integrated within the html file means I will have no need to involve myself with a database such as **MySql** to read from.
 
 Color and format data, will be held within a CSS file
 
+## File Layout
+
+![File Layout Structure](assets/support/site-filestructure.png)
+---
+
+I will implement the above filestructure for the website
+
+* The root folder will hold all the other folders -
+* **CSS/IMAGES/MEDIA/SUPPORT**
+& (Index.html & submission.html)
+
+* The assets folder will hold - CSS folder & Images folder
+
+* The SUPPORT Folder will hold files for creating the README.md  MARKDOWN support files, and can be deleted
+during a formal deployment.
 
 
 ---
-
