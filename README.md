@@ -40,3 +40,35 @@ Therefore, Black Eagle Films have asked for the site to:
 
 ## Advanced potential features
 Black Eagle Films have indicated that in the future, there is a chance that they would wish the website to be capable of sending messages back to their fans utilising the contact details gathered. **However, they have agreed that this feature will fall under a different release**.
+
+---
+
+
+# **Project purpose**
+The purpose of this project is to create an initial web  prescence in the form of a basic static website for the soon to be released feature film '**THE ATTACHMENT'** from Black Eagle Films.
+
+Black Eagle Films will be the owner of the site and will be refered to in this document as BEF.
+
+BEF have said that they require five things from the initial site release.
+1. One is an asthetic.
+2. The other four are features.
+3. Finally they anticipated **( but not green-lit )** another feature for the future.
+
+## Requirements Table:
+
+| Requirement No| Item | Classification |
+| -------------- |:----------------------:|:-------------| 
+|1 | Clean simple look & a suitable color scheme | Asthetic |
+|2|Have Pictures & Promo info |Feature|
+|3|Production/Behind The scenes|Feature|
+|4|Movie Trailer|Feature|
+|5|Collect user data / Contact Section|Feature|
+|6|Post communication to users|Out-of-scope
+
+### **We will remove the final feature as this is not green-lit** and I think it will be more backend when delivered. Indeed, if a front end section is required it will be implemenmt using an admin login credential to stop harassment mailing. Also we will most probably need to integrate a special page for the administrator or owner to access such a feature. In short this feature will be demed curently out of scope.
+
+### When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
+---
+---
+
+# UX Design
