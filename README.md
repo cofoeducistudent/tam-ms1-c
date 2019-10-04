@@ -7,12 +7,12 @@
 ["**The Attachment**"](https://cofoeducistudent.github.io/tam-ms1-c/)
 
  
-![The Attachment](assets/images/ta-poster-m.jpg)
+![The Attachment](assets/support/ta-poster-m.jpg)
  
  
 ## **PROJECT MANDATE**
 
-An independent film company **Black Eagle films(BEF)** are in the process of releasing a horror flick on halloween 2019 called **“The Attachment”**. They need a website developer to create a basic static web site that will aid them in promoting the film.  
+An independent film production company **Black Eagle films(BEF)** are in the process of releasing a horror flick on halloween 2019 called **“The Attachment”**. They need a website developer to create a basic static web site that will aid them in promoting the film.  
 
 ## **EXTERNAL USER GOAL**
 Black Eagle films anticipate the site users or customers are movie-goers and some are horror film fans who appreciate a low-budget horror.Been in business for some time BEF have an idea about their market.
@@ -24,9 +24,9 @@ Black Eagle films anticipate the site users or customers are movie-goers and som
 * If interested,  users normally like the option to contact the film promoters if they have any questions, such as what the certification rating is expected to be when the film is released and where it will be shown.
 
 ## **SITE OWNER GOAL**
-From Black Eagle Film’s perspective, they wish the site to be a first step in their film promotion stratergy, providing the above typically expected information to their customers.
+From Black Eagle Film’s perspective, they wish the site to be a first step in their promotion stratergy for the film , providing typically expected information to their customers.
 
-They wish the site to reflect the nature of the film and **not pander to 'gore-slasher' type material**.
+They wish the site to reflect the nature of the film and **not pander to 'gore-slasher' type materials**.
 
 They wish to capture some basic details of their potential customers, by giving them the option to provide email, names, and any other comments.
 
@@ -39,15 +39,15 @@ Therefore, Black Eagle Films have asked for the site to:
 4.	Finally  they wish to collect basic contact details from users for future promotional and marketing endeavours.
 
 ## Advanced potential features
-Black Eagle Films have indicated that in the future, there is a chance that they would wish the website to be capable of sending messages back to their fans utilising the contact details gathered. **However, they have agreed that this feature will fall under a different release**.
+**Black Eagle Films have indicated that in the future, there is a chance that they would wish the website to be capable of sending messages back to their fans utilising the contact details gathered. However, they have agreed that this feature will fall under a different release**.
 
 ---
 
 
 # **Project purpose**
-The purpose of this project is to create an initial web  prescence in the form of a basic static website for the soon to be released feature film '**THE ATTACHMENT'** from Black Eagle Films.
+**The purpose of this project then, is to create an initial web  prescence in the form of a basic static website for the soon to be released feature film 'THE ATTACHMENT' from Black Eagle Films.**
 
-Black Eagle Films will be the owner of the site and will be refered to in this document as BEF.
+**Black Eagle Films will be the owner of the site after deployment, and I will be refer to them in this document as BEF for simplicity.**.
 
 BEF have said that they require five things from the initial site release.
 1. One is an asthetic.
@@ -72,7 +72,7 @@ BEF have said that they require five things from the initial site release.
 ---
 # Approach
 
-The appoach I have decided to use in completing the project and site design is the five stage User design priciple.
+The appoach I have decided to use in completing the project and site design is the five stage User design principle.
 
 * Stratergy
 * Scope
@@ -83,9 +83,9 @@ The appoach I have decided to use in completing the project and site design is t
 
 # UX Design
 
-Further discussions to flesh out the requirements and scope,Black Eagle films anticipate this website will be the best way of engaging their audience initially, as most of them will have access to computers or mobile devices and are used to watching media content in its various forms.
+Following further discussions to flesh out the requirements and scope, Black Eagle films said this website will be the best way of engaging their audience initially, as most of their target audiience have access to computers or mobile devices and are comfortable watching media content in its various forms.
 
-In addition using the internet and web-technologies will allow them to capitalise on a broader geographic location for targeting with significantly reduced cost.
+In addition using the internet and web-technologies will allow them to capitalise on a broader geographic regions with significantly reduced capital expenditure.
 
 This is important because as an independent film producing company, they have limited funding.
 
@@ -98,3 +98,55 @@ The **features that have been decided on** between Me(Webdesigner) & BEF are as 
 6. Download Presss-Kit Feature 
 to validate the necessity for these features I have provided user stories to support them.
 
+
+# Stratergy
+
+Following clarification of BEF's requirements for their website I have dicided on the following approach. 
+
+* The website shall be a simple single page scroller type with multiple sections, with a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page.
+
+* I have put to BEF, that  many people have **smart phones capable of web access**, which is only increasing in volume yer by year. The chances are first point of contact with the film protion material, should be the phone.
+People are more comfortable with scroling on a small touch screen phone while on the move than trying to read the navigation bar. Its more natural.Also they will not be on the site for typing in large bits of data, rather absorbing the info. Therfore even the section for supplying contact details should be limited and brief ( Atleast at first contact).
+
+* I also highlighted the fact that the film medium on release may actually be consumed on a smartphone. For may people this is a norm, especially if the film is placed on a streaming service such as Netflix or Amazon.
+
+* We shall have a navigation bar also, because although we will be employing **mobile first design principles**. We do envisage other members of their audince having access to computers and tellivison also. The latter frequently does not hav touch screen capabilities in a significant volume.
+
+* I have also decided to go with a plain light background in contrast to my initial thoughts. This will allow for the clean fresh look. BEF have been clear that the film is not to be confused with standard horror gore, therefore I will avoid any references to blood and guts imagery. 
+
+* BEF has said in conversation, it is a spooky drama, rather than a horror. but for the sake of genre this kind of film is automatically placed into the horror category for distribution. They say it's what distributors want to make it easier to sell, but not what they are really aiming for, as they also want to gain a wider scope of fans for the film.
+
+* My initial thoughts were to have the site on a predominat dark/balck background, but this would lean towards the type of film that BEF wish to differentiate theselves from.
+
+ Indeed from my conversations I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes taht would push up their certification rating. 
+ 
+ BEF wish the film to be promoted as a spooky tea-time mystery, and has said the film does not contain nudity or strong foul language. They also say it has has an intended positive message with a christian slant, and they wish it to be certified as a PG.
+This has clarified and convinced me that I should avoid anything contentious, and pursue a direction that won't upset people by misrepresenting this fact.
+
+### **The sections on the single scroll page will be as follows:**
+* **About** - To quickly inform the user in breif about the film.
+* **Trailer** - Show a trailer from the film
+I have placed this second in order , as people usually wish to get to the meat and potatoes quickly.
+* **Production** -A small bit about the production of the film
+* **Contact** - A section providing a means for the users to contact BEF & allow BEF to collect the email addresses
+* **Download** - Press Kit Section , allowing anyone intrested to get access to more indepth material.
+
+---
+
+# Scope
+1. I will build a single-scroll-page website
+2. I will have the following **Explicit features** ( Requested by the client).
+3. I will have  **Implicit features** decided by me as the web developer.
+4. ** Sending communication out to the user is deemed out of scope.**
+
+| Scope Item | In/Out|Type|
+|---|:---:|:--- |
+|About section| In Scope|Explicit|
+|Trailer section|In Scope|Explicit|
+|Production section|In Scope|Explicit|
+|Contact section|In Scope|Explicit|
+|Download section|In Scope|Explicit|
+|Navigation Bar|In Scope|Implicit|
+|Message Users|Out of Scope|Explict|
+
+---
