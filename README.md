@@ -70,5 +70,31 @@ BEF have said that they require five things from the initial site release.
 ### When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
 ---
 ---
+# Approach
+
+The appoach I have decided to use in completing the project and site design is the five stage User design priciple.
+
+* Stratergy
+* Scope
+* Structure
+* Skeleton
+* Surface
+
 
 # UX Design
+
+Further discussions to flesh out the requirements and scope,Black Eagle films anticipate this website will be the best way of engaging their audience initially, as most of them will have access to computers or mobile devices and are used to watching media content in its various forms.
+
+In addition using the internet and web-technologies will allow them to capitalise on a broader geographic location for targeting with significantly reduced cost.
+
+This is important because as an independent film producing company, they have limited funding.
+
+The **features that have been decided on** between Me(Webdesigner) & BEF are as follows:
+1.	Navigation bar
+2.	About section
+3.	Trailer section
+4.	Behind-the-scenes section
+5.	Contact form
+6. Download Presss-Kit Feature 
+to validate the necessity for these features I have provided user stories to support them.
+
