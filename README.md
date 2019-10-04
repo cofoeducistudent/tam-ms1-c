@@ -134,10 +134,19 @@ I have placed this second in order , as people usually wish to get to the meat a
 ---
 
 # Scope
+
+### In summary
 1. I will build a single-scroll-page website
 2. I will have the following **Explicit features** ( Requested by the client).
+
+* About section
+* Trailer section
+* Production (behind the scenes section)
+* Contact section
+* Download section
 3. I will have  **Implicit features** decided by me as the web developer.
-4. ** Sending communication out to the user is deemed out of scope.**
+
+4. The website Sending communication out to the user is ** deemed out of scope.**
 
 | Scope Item | In/Out|Type|
 |---|:---:|:--- |
@@ -147,6 +156,7 @@ I have placed this second in order , as people usually wish to get to the meat a
 |Contact section|In Scope|Explicit|
 |Download section|In Scope|Explicit|
 |Navigation Bar|In Scope|Implicit|
+|Legal Section|Inscope|Implicit|
 |Message Users|Out of Scope|Explict|
 
 ---
