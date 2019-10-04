@@ -121,17 +121,12 @@ body {
 .first-letter {
     font-size: 2rem;
 }
-
-
 /* The general content  text size */
 .content-text-size {
     margin-top: 10px;
     font-size: 1rem;
     text-align: justify;
 }
-
-
-
 /* Section Title */
 .section-title {
     margin-top: 20px;
@@ -147,24 +142,12 @@ body {
 .bottom-bar h1 {
     font-size: 1rem;
 }
-
-
 .bottom-bar  li  {
     list-style: none;
 }
-
-
- 
-
 .bottom-bar h1 ul li a {
     text-decoration: none;
 }
-
- 
-
-
-
-
 .main-content a {
     color: #319fa6;
 }
