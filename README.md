@@ -65,9 +65,13 @@ BEF have said that they require five things from the initial site release.
 |5|Collect user data / Contact Section|Feature|
 |6|Post communication to users|Out-of-scope
 
-### **We will remove the final feature as this is not green-lit** and I think it will be more backend when delivered. Indeed, if a front end section is required it will be implemenmt using an admin login credential to stop harassment mailing. Also we will most probably need to integrate a special page for the administrator or owner to access such a feature. In short this feature will be demed curently out of scope.
+ We will place feature -6- as Out of scope OOS, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using an admin login credential to stop harassment mailing. 
+ 
+ Also we will most probably need to integrate a special page for the administrator or owner to access such a feature. In short this feature will be demed curently out of scope.
 
-### When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
+
+
+## When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
 ---
 ---
 # Approach
@@ -103,7 +107,7 @@ to validate the necessity for these features I have provided user stories to sup
 
 Following clarification of BEF's requirements for their website I have dicided on the following approach. 
 
-* The website shall be a simple single page scroller type with multiple sections, with a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page.
+* The website shall be a simple single page scroller with multiple sections. It will have a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page.
 
 * I have put to BEF, that  many people have **smart phones capable of web access**, which is only increasing in volume yer by year. The chances are first point of contact with the film protion material, should be the phone.
 People are more comfortable with scroling on a small touch screen phone while on the move than trying to read the navigation bar. Its more natural.Also they will not be on the site for typing in large bits of data, rather absorbing the info. Therfore even the section for supplying contact details should be limited and brief ( Atleast at first contact).
@@ -131,7 +135,29 @@ I have placed this second in order , as people usually wish to get to the meat a
 * **Contact** - A section providing a means for the users to contact BEF & allow BEF to collect the email addresses
 * **Download** - Press Kit Section , allowing anyone intrested to get access to more indepth material.
 
+
+To Validtae the need for the features, I carried out a user story process.
+
+# User Stories
+
+|User Story Element|User Type| Feature|Reason/Goal|
+|:---:|:---|:---|:---|
+|1|As a User|I need a Navigation-bar|So that I can navigate through the site easily|
+|2|As a User|I need an About section|So, I can quickly understand what the site is about|
+|3|As a User|I need a Trailer section|So that I can view her section of the film to see if it's a kind of film I like|
+|4|As a User|I need a behind-the-scenes section|So that I can understand what type of film production it is and if it's something that is of interest to me|
+|5|As a User|I need a contacts form or page|So that I can find out a bit more about the film if I need to|
+|6|As an Owner|I need a navigation bar|So that I can navigate through the site easily|
+|7|As an Owner|I need an About section|So that I can tell potential customers quickly what the film is about|
+|8|As an Owner|I need a trailer section|So that I can entice potential customers to come to see the film|
+|9|As an Owner|I need a behind the scenes section|So that I can generate more interest from film fans|
+|10|As an Owner|I need a contacts form|So that I can gather contact information and data from my customers|
+
 ---
+
+
+
+
 
 # Scope
 
@@ -160,3 +186,20 @@ I have placed this second in order , as people usually wish to get to the meat a
 |Message Users|Out of Scope|Explict|
 
 ---
+
+
+# Structure
+
+The information data presented on the site is intregrated within the HTML file.
+
+BEF wanted a basic site for initial promotion. 
+
+It is feasible that they may wish for a more elaborate construct in the future. However, at present having the data content integrated withinbn the html means I will have no need to involve myself with a database such as **MySql** to read from.
+
+
+Color and format data, will be held within a CSS file
+
+
+
+---
+
