@@ -2,15 +2,50 @@
 # **The Attachment-Movie**
 ## The code-institute (**Milestone-1** project)
 
-## Clement Ofoedu
+## Coder: **Clement Ofoedu**
+
+ ---
+
+ # **Index**
+[1. Project Mandate](#project-mandate)
+
+[2. External User Goal](#external-user-goal)
+
+[3. Site Owner Goal](#site-owner-goal)
+
+[4. Advanced Potential Goal](#advanced-potential-features)
+
+[5. Project Purpose](#project-purpose)
+
+[6. Requirements Table](#requirements-table)
+
+[7. Approach](#approach)
+
+[8. Ux Design](#ux-design)
+
+[9. Stratergy](#stratergy)
+
+[10. User Stories](#user-stories)
+
+[11. Scope](#scope)
+
+[12. Structure ](#structure)
+
+[13. File Layout ](#file-layout )
+
+[14.  ](# )
+
+ ---
+
+
 
 ["**The Attachment**"](https://cofoeducistudent.github.io/tam-ms1-c/)
 
  
 ![The Attachment](assets/support/ta-poster-m.jpg)
  
- 
-## **PROJECT MANDATE**
+
+##  **PROJECT MANDATE**
 
 An independent film production company **Black Eagle films(BEF)** are in the process of releasing a horror flick on halloween 2019 called **“The Attachment”**. They need a website developer to create a basic static web site that will aid them in promoting the film.  
 
@@ -106,7 +141,8 @@ to validate the necessity for these features I have provided user stories to sup
 
 Following clarification of BEF's requirements for their website I have dicided on the following approach. 
 
-* The website shall be a simple single page scroller with multiple sections. It will have a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page.
+* **The website shall be a simple single page scroller with multiple sections.
+It will have a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page**.
 
 * I have put to BEF, that  many people have **smart phones capable of web access**, which is only increasing in volume yer by year. The chances are first point of contact with the film protion material, should be the phone.
 People are more comfortable with scroling on a small touch screen phone while on the move than trying to read the navigation bar. Its more natural.Also they will not be on the site for typing in large bits of data, rather absorbing the info. Therfore even the section for supplying contact details should be limited and brief ( Atleast at first contact).
@@ -135,7 +171,7 @@ I have placed this second in order , as people usually wish to get to the meat a
 * **Download** - Press Kit Section , allowing anyone intrested to get access to more indepth material.
 
 
-To Validtae the need for the features, I carried out a user story process.
+To Validtae the need for the features, I carried out a user story process. The results are from **self input** (as a user) and  **BEF requirements**.
 
 # User Stories
 
