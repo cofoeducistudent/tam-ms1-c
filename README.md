@@ -102,7 +102,6 @@ The **features that have been decided on** between Me(Webdesigner) & BEF are as 
 6. Download Presss-Kit Feature 
 to validate the necessity for these features I have provided user stories to support them.
 
-
 # Stratergy
 
 Following clarification of BEF's requirements for their website I have dicided on the following approach. 
@@ -116,11 +115,11 @@ People are more comfortable with scroling on a small touch screen phone while on
 
 * We shall have a navigation bar also, because although we will be employing **mobile first design principles**. We do envisage other members of their audince having access to computers and tellivison also. The latter frequently does not hav touch screen capabilities in a significant volume.
 
-* I have also decided to go with a plain light background in contrast to my initial thoughts. This will allow for the clean fresh look. BEF have been clear that the film is not to be confused with standard horror gore, therefore I will avoid any references to blood and guts imagery. 
+* I have also decided to go with a plain light background in contrast to my initial thoughts. This will allow for the clean fresh look. BEF have been clear that the film is not to be confused with standard horror gore, therefore I will avoid any references to blood and guts imagery.
 
-* BEF has said in conversation, it is a spooky drama, rather than a horror. but for the sake of genre this kind of film is automatically placed into the horror category for distribution. They say it's what distributors want to make it easier to sell, but not what they are really aiming for, as they also want to gain a wider scope of fans for the film.
+* BEF has said in conversation, it is a spooky drama, rather than a horror and they also want to gain a wider scope of fans for the film.
 
-* My initial thoughts were to have the site on a predominat dark/balck background, but this would lean towards the type of film that BEF wish to differentiate theselves from.
+* My initial thoughts were to have the site on a predominat dark/black background, but this would lean towards the type of film that BEF wish to differentiate theselves from.
 
  Indeed from my conversations I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes taht would push up their certification rating. 
  
