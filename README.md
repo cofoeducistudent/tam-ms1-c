@@ -160,8 +160,8 @@ Also, people are more comfortable with hand guesture scrolling on a small touch 
 
 * My initial thoughts were to have the site on a predominat dark/black background, but this would lean towards the type of film that BEF wish to differentiate theselves from.
 
-* Indeed from my conversations I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes taht would push up their certification rating. 
- 
+* Indeed from my conversations I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes taht would push up their certification rating.
+
 **BEF wish the film to be promoted as a spooky tea-time mystery, and has said the film does not contain nudity or strong foul language. They also say it has has an intended positive message with a christian slant, and they wish it to be certified as a PG.**
 
 This has clarified and convinced me that I should avoid anything contentious, and pursue a direction that won't upset people by misrepresenting this fact.
@@ -329,7 +329,7 @@ As previously stated, the website will contain a few features. Some have been re
 |5.|Download section|In Scope|Explicit|Allows the user to download a "Press-Kit" and any other digital artifacts BEF wishes to include|
 |6.|Navigation Bar|In Scope|Implicit|Allows the user to navigate to all the other sections from the top of the page. Note: The min nav bar at the bottom of the page replicates this also|
 |7.|Legal Section|Inscope|Implicit|Shows legal message wished by BEF to the public|
-|8.|Message Users|Out of Scope|Explict| ** THIS IS OUT OF SCOPE **|
+|8.|Message Users|Out of Scope|Explict| **THIS IS OUT OF SCOPE**|
 
 
 
@@ -338,7 +338,6 @@ As previously stated, the website will contain a few features. Some have been re
 
 # **EXISTING FEATURES**
 ---
-
 Most of the features requested by BEF for the website are callouts , and have no real specific action. The UX is simply the presentation of the content.
 The UI is either to scroll or the use of the navigation bar.
 
@@ -361,10 +360,11 @@ I decided on this approach so as not to obscure the screen for the user, especia
 ![Main Navigation bar](assets/support/contact-form.jpg)
 
 For the  Contact-form feature, I chose a simple unclutterd look. With lots of space.
-I also ensured that the fields were of the **'Required'** type. This will ensure that 1. web-bot will find it difficult to post 
+I also ensured that the fields were of the **'Required'** type. This will ensure that
+1. Web-bots will find it difficult to post
 2. Users must fill out details especially email to post
 3. The owner will atleast get the name and email address of posters, thus satisfying their requirement
-4. Users must also click a check box to agree with sending the data, thus complying with data-protection laws. Although BEF have not provided the details of this, I expect it will not be any great hardship to drop in a link to reference it. My thinking is BEF may have other websites and linking to a central location will ensure that theier legal team only need to update a specific location at will.
+4. Users must also click a check box to agree with sending the data, thus complying with data-protection laws. Although BEF have not provided the details of this, I expect it will not be any great hardship to drop in a link to reference it. My thinking is BEF may have other websites and linking to a central location will ensure that their legal team only need to update a specific location at will.
 
 These are the two most important features required for the site.
 
@@ -437,29 +437,38 @@ To create the website I used various tools and technologies. I have listed these
 
 
 # **CREDITS**
+
+ 
 ---
-
-
----
-
-
 ## **Content**
----
+
+All text and content within the site was created by myself.
 
 
 ---
-
-
 ## **Media**
+
+* The photos and grapichs used on this site are credited to Black Eagle Films (BEF) of which I was owner.
+* The attachment was a film based on a screenplay I wrote, produced and direct a few years ago.
+* The download pdf file was created by me a few years ago, and thesame for the posters images.
+* Screenshots were captured from the HD version of the film.
 ---
-
-
----
-
-
 
 ## **Acknowledgements**
 ---
+* I would like to acknowledge all the actors and crew that helped me make the attachment, especially
 
+Actors:
+* Duncan Malcolm
+* Leah Cooper
+* Tony Honickberg
+* Michelle Coverly
+
+* Eno Enofik - AD
+* Feliche - DP
+* Julia Fecchio - Editor
+* I would like to acklowledge a few people from code-institute that helped me when I struggled to make this site.
 
 ---
+
+**END**
