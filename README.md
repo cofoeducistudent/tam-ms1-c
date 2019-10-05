@@ -320,7 +320,11 @@ The UI is either to scroll or the use of the navigation bar.
 
 
 
-** However it is worth a mention, that i decided to implement a translucent navigation bar that would turn opaque for use. I decided on this approach so as not to obscure the screen for the user, especially on a mobile phone.**
+** However it is worth a mention, that I decided to implement a translucent navigation bar that would turn opaque for used. I decided on this approach so as not to obscure the screen for the user, especially on a mobile phone.**
+
+* On mouse hover=Opaque
+* On mouse leave=Translucent (timing 1.5s)
+
 
 
 ## **Feature - 4- ( Contact Form )**
@@ -340,18 +344,36 @@ These are the two most important features required for the site.
 
 # **FEATURES LEFT TO IMPLEMENT**
 
- The out of scope feature discussed with BEF breifly, will need further thought if and when they wish to implement it. As it stands there are may routes to achieve this objective. Some are more expedient and cost-effective. My initial thoughts were
+ The out of scope **(OOS)** feature discussed with **BEF**, will need further thought, if and when it is to be implemented. As it stands there are many ways to achieve the objective, some more expedient and cost-effective than others. My initial thoughts were...
 
 1. Site integration of the feature
-2. Just collate the data nad contact details on  a backend. Harvest the dat and import into a Common Off the shelf (COTS) web mailer system.
+2. Just collate the data and contact details on a backend system. Harvest the data and import into a Common Off the shelf (COTS) web mailer system.
 3. Create an auto responder backend system to mail users.
 
+### **However as stated the various approaches will need further discussion and an understanding of the tripple constraint priority of time/cost/quality**
 ---
-
-
 
 # **TECHNOLOGIES USED**
 ---
+To create the website I used various tools and technologies. I have listed these below.
+
+|Technology Used|Version|Reason for use|Manufacturers-site-link|
+|:---:|:---:|:---:|:---:|
+|HTML|5| Markup Language used to create the webpage in accord with the internet technologies|The latest HTML standard integrated within many web-browsers|
+|CSS|3|To style the website|The latest CSS standard Integrated within HTML|-|
+|Bootstrap4|4.3.1 *|Toolikt to help develope the website|[https://getbootstrap.com](https://getbootstrap.com)|
+|jquery|3.3.1|Integrated as support to Bootstrap file via CDN|[https://code.jquery.com/jquery-3.3.1.slim.min.js](https://code.jquery.com/jquery-3.3.1.slim.min.js)
+|popper|1.14.7|Integrated as support to Bootstrap file via CDN|[https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.)
+|Javascript|4.3.1|Integrated as support to Bootstrap file via CDN|[https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js)
+|Just color picker |5.2.0|Grab color images from screen pixels|[https://annystudio.com](https://annystudio.com)|
+|Affinity Photo - software |1.7.3 |Image manipulation|[https://affinity.serif.com/en-gb/photo/](https://affinity.serif.com/en-gb/photo/)|
+|VS-Studio|1.38.1 Microsoft - IDE used to design the website|[]()
+
+* Please note that Bootstrap4 uses Javascript/Jquery/popper as part of its suite to function fully.
+
+
+
+
 ---
 
 
