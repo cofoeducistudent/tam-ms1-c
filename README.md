@@ -257,7 +257,6 @@ The **ROOT** folder will hold all the other folders -
 |-|CSS|style.css|various images for website|various images for README.md|
 |ASSETS|-|-|-|-|
 
-
 ## Wireframes
 
 To get a basic idea of what the site will look like on completion, I created a wireframe to share with BEF.
@@ -283,8 +282,37 @@ Activity Flow
 
 ## **(S)urface**
 ---
+BEF wished a clean looking site.
 
-color themes
+### Color themes
+* I decided to use light colours , as they also did not want to give the impression that the film was a dark and gory affair.
+* I chose white as the predominant background  colour.
+* I utilized an AI web tool "Colormind" to choose clors in class with a scanned in photo segment of the film.
+* I then decrease the values so aas to make the final result more pastel.
+
+![Colormind sugestion](assets/support/colormind-smart-extraction.png)
+
+![Screen Shot of site](assets/support/the-attachment-screen-image.jpg)
+
+### Other Aesthetics
+
+* As for more  aesthetics, I chose to implement rounded corners on most of the images. I felt this was somehow warmer and friendly, rather than sharp edgeds
+
+* I also implement the "Exo" font-family using **Googlefonts** as that was soft and does not convey horror per-sae.
+
+* Finally, I utilized the **Fontawsome** CDN linking to place social media icons in suitable places. Again I changed the colors with CSS, on link and hover.
+
+* The images placed on the site were compressed to reduce size and improve performace loading time. I used the **TinyJpg** online tool to achive this, saving 20-80% in size frequently.
+
+![Fontawsome Icons](assets/support/fontawsome-icons.jpg)
+
+For social-media icons, I opted to show
+
+* Facebook
+* Instagram
+* Youtube
+* Linkedin
+
 ---
 
 
@@ -320,7 +348,8 @@ The UI is either to scroll or the use of the navigation bar.
 
 
 
-** However it is worth a mention, that I decided to implement a translucent navigation bar that would turn opaque for used. I decided on this approach so as not to obscure the screen for the user, especially on a mobile phone.**
+** However it is worth a mention, that I decided to implement a translucent navigation bar that would turn opaque when used.
+I decided on this approach so as not to obscure the screen for the user, especially on a mobile phone.**
 
 * On mouse hover=Opaque
 * On mouse leave=Translucent (timing 1.5s)
@@ -382,18 +411,15 @@ To create the website I used various tools and technologies. I have listed these
 |Fontawsome|5.11.2| Icon supply for website |[https://fontawesome.com/](https://fontawesome.com/)|
 |Googlefonts|n/a| provide access to font family ("Exo") |https://fonts.google.com](https://fonts.google.com)|
 
-
 * Note that **Bootstrap4.x uses Javascript/Jquery/popper** as part of its suite to function fully.
 
-
-
-
 ---
-
-
 
 # **TESTING**
 ---
+
+
+
 
 
 ---
