@@ -367,9 +367,23 @@ To create the website I used various tools and technologies. I have listed these
 |Javascript|4.3.1|Integrated as support to Bootstrap file via CDN|[https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js)
 |Just color picker |5.2.0|Grab color images from screen pixels|[https://annystudio.com](https://annystudio.com)|
 |Affinity Photo - software |1.7.3 |Image manipulation|[https://affinity.serif.com/en-gb/photo/](https://affinity.serif.com/en-gb/photo/)|
-|VS-Studio|1.38.1 Microsoft - IDE used to design the website|[]()
+|VS-Studio|1.38.1| Microsoft - IDE used to design the website|[https://visualstudio.microsoft.com](https://visualstudio.microsoft.com)|
+|Monosnap|3.62|Screen Grabber & Recorder- used to convert video clip of entity face repeat - ( Apple App Store)|[https://monosnap.com](https://monosnap.com)|
+|Chrome Browser|Version 77.0.3865.90 (Official Build) (64-bit)|To test website using Chrome-Tools|[https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMI38eKkIuG5QIViaztCh2jWg5DEAAYASAAEgL6hfD_BwE&gclsrc=aw.ds](https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMI38eKkIuG5QIViaztCh2jWg5DEAAYASAAEgL6hfD_BwE&gclsrc=aw.ds)|
+|Git|2.23.0|Version Control|[https://git-scm.com](https://git-scm.com)
+|Git-Hub|2.23.0|Git Cloud Repository Storage Facility|[https://github.com](https://github.com)
+|TinyJpg|n/a|Image compression/ Size reduction|[https://tinyjpg.com/](https://tinyjpg.com)
+|Colormind|n/a|Used to get appropriate colors for site|[http://colormind.io/image/](http://colormind.io/image/)
+|HTML Validator|n/a|Code Validation - To Validate the HTML code|[https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input)|
+|CSS Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/#validate_by_input)|
+|Clideo|n/a|Online Video Compressor - Compress trailer for website|[https://clideo.com/compress-video](https://clideo.com/compress-video)
+|Balsmiq|3|Wireframe-Mockup Software|[https://balsamiq.com/wireframes/](https://balsamiq.com/wireframes/)
+|CSS - Autoprefixer |n/a| Autoprefix CSS files for brpwser compatibility|[https://autoprefixer.github.io/](https://autoprefixer.github.io/)|
+|Fontawsome|5.11.2| Icon supply for website |[https://fontawesome.com/](https://fontawesome.com/)|
+|Googlefonts|n/a| provide access to font family ("Exo") |https://fonts.google.com](https://fonts.google.com)|
 
-* Please note that Bootstrap4 uses Javascript/Jquery/popper as part of its suite to function fully.
+
+* Note that **Bootstrap4.x uses Javascript/Jquery/popper** as part of its suite to function fully.
 
 
 
