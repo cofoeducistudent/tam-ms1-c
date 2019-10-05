@@ -7,49 +7,61 @@
  ---
 
  # **Index**
-[1. Project Mandate](#project-mandate)
 
-[2. External User Goal](#external-user-goal)
+[**1. UX**](#ux )
 
-[3. Site Owner Goal](#site-owner-goal)
+[_a.Stratergy_](#stratergy)
 
-[4. Advanced Potential Goal](#advanced-potential-features)
+[_b.Scope_](#scope)
 
-[5. Project Purpose](#project-purpose)
+[_c.Structure_](#structure)
 
-[6. Requirements Table](#requirements-table)
+[_d.Skeleton_](#skeleton)
 
-[7. Approach](#approach)
+[_e.Surface_](#surface)
 
-[8. Ux Design](#ux-design)
+---
+[**2. Features**](#features)
 
-[9. Stratergy](#stratergy)
+[**3. Existing Features**](#existing-features)
 
-[10. User Stories](#user-stories)
+[**3. Features Left to Implement**](#features-left-to-implement)
 
-[11. Scope](#scope)
+[**4. Technologies Used**](#technologies-used)
 
-[12. Structure ](#structure)
+[**5. Testing**](#testing)
 
-[13. File Layout ](#file-layout )
+[**6. Deployment**](#deployment)
 
-[14.  ](# )
+[**7. Credits**](#credits)
+
+---
+
+[**8. Content**](#content)
+
+[**9. Media**](#media)
+
+[**10. Acknowledgements**](#acknowledgements)
 
  ---
 
+# **UX**
+---
+---
 
+
+###  **PROJECT MANDATE**
 
 ["**The Attachment**"](https://cofoeducistudent.github.io/tam-ms1-c/)
 
- 
 ![The Attachment](assets/support/ta-poster-m.jpg)
- 
-
-##  **PROJECT MANDATE**
 
 An independent film production company **Black Eagle films(BEF)** are in the process of releasing a horror flick on halloween 2019 called **“The Attachment”**. They need a website developer to create a basic static web site that will aid them in promoting the film.  
 
-## **EXTERNAL USER GOAL**
+
+## **(S)tratergy**
+
+#### **EXTERNAL USER GOAL**
 Black Eagle films anticipate the site users or customers are movie-goers and some are horror film fans who appreciate a low-budget horror.Been in business for some time BEF have an idea about their market.
 
 * Typically, users wish to find out about upcoming films, see images from the movie, and of course a trailer  to whet their appetite.
@@ -58,7 +70,7 @@ Black Eagle films anticipate the site users or customers are movie-goers and som
 
 * If interested,  users normally like the option to contact the film promoters if they have any questions, such as what the certification rating is expected to be when the film is released and where it will be shown.
 
-## **SITE OWNER GOAL**
+#### **SITE OWNER GOAL**
 From Black Eagle Film’s perspective, they wish the site to be a first step in their promotion stratergy for the film , providing typically expected information to their customers.
 
 They wish the site to reflect the nature of the film and **not pander to 'gore-slasher' type materials**.
@@ -73,13 +85,12 @@ Therefore, Black Eagle Films have asked for the site to:
 3.	They also wish to show a movie trailer to help entice the audience, wheting their appetite.
 4.	Finally  they wish to collect basic contact details from users for future promotional and marketing endeavours.
 
-## Advanced potential features
+#### Advanced potential features
 **Black Eagle Films have indicated that in the future, there is a chance that they would wish the website to be capable of sending messages back to their fans utilising the contact details gathered. However, they have agreed that this feature will fall under a different release**.
 
 ---
 
-
-# **Project purpose**
+#### **Project purpose**
 **The purpose of this project then, is to create an initial web  prescence in the form of a basic static website for the soon to be released feature film 'THE ATTACHMENT' from Black Eagle Films.**
 
 **Black Eagle Films will be the owner of the site after deployment, and I will be refer to them in this document as BEF for simplicity.**.
@@ -89,7 +100,7 @@ BEF have said that they require five things from the initial site release.
 2. The other four are features.
 3. Finally they anticipated **( but not green-lit )** another feature for the future.
 
-## Requirements Table:
+#### Requirements Table:
 
 | Requirement No| Item | Classification |
 | -------------- |:----------------------:|:-------------| 
@@ -100,27 +111,20 @@ BEF have said that they require five things from the initial site release.
 |5|Collect user data / Contact Section|Feature|
 |6|Post communication to users|Out-of-scope
 
- We will place feature -6- as Out of scope OOS, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using an admin login credential to stop harassment mailing. 
- 
+ We will place feature -6- as Out of scope OOS, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using an admin login credential to stop harassment mailing.
  Also we will most probably need to integrate a special page for the administrator or owner to access such a feature. In short this feature will be demed curently out of scope.
 
-
-
-## When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
+#### When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
 ---
----
-# Approach
+#### Approach
 
-The appoach I have decided to use in completing the project and site design is the five stage User design principle.
+The appoach I have decided to use in completing the project and site design is the **five stage User design principle**.
 
 * Stratergy
 * Scope
 * Structure
 * Skeleton
 * Surface
-
-
-# UX Design
 
 Following further discussions to flesh out the requirements and scope, Black Eagle films said this website will be the best way of engaging their audience initially, as most of their target audiience have access to computers or mobile devices and are comfortable watching media content in its various forms.
 
@@ -137,11 +141,9 @@ The **features that have been decided on** between Me(Webdesigner) & BEF are as 
 6. Download Presss-Kit Feature 
 to validate the necessity for these features I have provided user stories to support them.
 
-# Stratergy
-
 Following clarification of BEF's requirements for their website I have dicided on the following approach. 
 
-* **The website shall be a simple single page scroller with multiple sections.
+* **The website will be a simple single page scroller with multiple sections.
 It will have a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page**.
 
 * I have put to BEF, that  many people have **smart phones capable of web access**, which is only increasing in volume yer by year. The chances are first point of contact with the film protion material, should be the phone.
@@ -162,7 +164,7 @@ People are more comfortable with scroling on a small touch screen phone while on
  BEF wish the film to be promoted as a spooky tea-time mystery, and has said the film does not contain nudity or strong foul language. They also say it has has an intended positive message with a christian slant, and they wish it to be certified as a PG.
 This has clarified and convinced me that I should avoid anything contentious, and pursue a direction that won't upset people by misrepresenting this fact.
 
-### **The sections on the single scroll page will be as follows:**
+#### **The sections on the single scroll page will be as follows:**
 * **About** - To quickly inform the user in breif about the film.
 * **Trailer** - Show a trailer from the film
 I have placed this second in order , as people usually wish to get to the meat and potatoes quickly.
@@ -170,10 +172,9 @@ I have placed this second in order , as people usually wish to get to the meat a
 * **Contact** - A section providing a means for the users to contact BEF & allow BEF to collect the email addresses
 * **Download** - Press Kit Section , allowing anyone intrested to get access to more indepth material.
 
-
 To Validtae the need for the features, I carried out a user story process. The results are from **self input** (as a user) and  **BEF requirements**.
 
-# User Stories
+#### User Stories
 
 |User Story Element|User Type| Feature|Reason/Goal|
 |:---:|:---|:---|:---|
@@ -190,13 +191,9 @@ To Validtae the need for the features, I carried out a user story process. The r
 
 ---
 
+## **(S)cope**
 
-
-
-
-# Scope
-
-### In summary
+#### In summary
 1. I will build a single-scroll-page website
 2. I will have the following **Explicit features** ( Requested by the client).
 * About section
@@ -223,14 +220,7 @@ To Validtae the need for the features, I carried out a user story process. The r
 
 ---
 
-
-# Structure
-
-
-
-BEF want a basic site for initial promotion. 
-
-They may wish for a more elaborate construct in the future. However, at present having the information data content **integrated within the html** file means I will not need to involve a database such as **MySql**  or other data retrival methods to read the data from.
+BEF want a basic site for initial promotion. They may wish for a more elaborate construct in the future. However, at present having the information data content **integrated within the html** file means I will not need to involve a database such as **MySql**  or other data retrival methods to read the data from.
 
 **Structure data** is inherent within html
 
@@ -240,7 +230,7 @@ They may wish for a more elaborate construct in the future. However, at present 
 
 **Bootstrap 4** will be used predominantly to construct the site
 
-## File Layout
+#### File Layout
 
 ![File Layout Structure](assets/support/site-filestructure.png)
 ---
@@ -258,6 +248,97 @@ The **ROOT** folder will hold all the other folders -
 |-|CSS|style.css|various images for website|various images for README.md|
 |ASSETS|-|-|-|-|
 
+---
+## **(S)tructure**
+
+
+
+
+
+---
+## **(S)keleton**
+
+
+Wireframes
+
+
+
+## **(S)urface**
+---
+
 
 ---
 
+
+# **FEATURES**
+---
+
+
+---
+
+
+# **EXISTING FEATURES**
+---
+
+
+---
+
+
+
+# **FEATURES LEFT TO IMPLEMENT**
+---
+---
+
+
+
+# **TECHNOLOGIES USED**
+---
+---
+
+
+
+# **TESTING**
+---
+
+
+---
+
+
+
+
+
+# **DEPLOYMENT**
+---
+
+
+---
+
+
+
+# **CREDITS**
+---
+
+
+---
+
+
+## **Content**
+---
+
+
+---
+
+
+## **Media**
+---
+
+
+---
+
+
+
+## **Acknowledgements**
+---
+
+
+---
