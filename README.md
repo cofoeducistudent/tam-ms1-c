@@ -278,20 +278,30 @@ I shared this with BEF and after further discussion slightly improved it.
 ## **(S)keleton**
 
 
-Wireframes
-
+Activity Flow
 
 
 ## **(S)urface**
 ---
 
-
+color themes
 ---
 
 
 # **FEATURES**
 ---
 As previously stated, the website will contain a few features. Some have been requested by BEF **(Explicitly)** and others will be implemented by the developer, because it makes sense for acheiving the overall solution **(Implicit)**
+
+|Item No.|Scope Item|In/Out|Type|Objective|
+|:---:|:---:|:---:|:---:|:---|
+|1.|About section| In Scope|Explicit| Allows the user to jump to the About section of the site and see what the movie is about|
+|2.|Trailer section|In Scope|Explicit|Allows the user to jump to the Trailer section of the site and watch a movie trailer|
+|3.|Production section|In Scope|Explicit|Allows the user to jump to the Production section of the site and see behind the scenes elements related to the film|
+|4.|Contact section|In Scope|Explicit|Allows the user to jump to the section of the site that allows the user to submit their contact details and make enquiries|
+|5.|Download section|In Scope|Explicit|Allows the user to download a "Press-Kit" and any other digital artifacts BEF wishes to include|
+|6.|Navigation Bar|In Scope|Implicit|Allows the user to navigate to all the other sections from the top of the page. Note: The min nav bar at the bottom of the page replicates this also|
+|7.|Legal Section|Inscope|Implicit|Shows legal message wished by BEF to the public|
+|8.|Message Users|Out of Scope|Explict| ** THIS IS OUT OF SCOPE **|
 
 
 
@@ -301,13 +311,41 @@ As previously stated, the website will contain a few features. Some have been re
 # **EXISTING FEATURES**
 ---
 
+Most of the features requested by BEF for the website are callouts , and have no real specific action. The UX is simply the presentation of the content.
+The UI is either to scroll or the use of the navigation bar.
+
+## **Feature - 6 - ( Navbar )**
+
+![Main Navigation bar](assets/support/main-navbar.jpg)
+
+
+
+** However it is worth a mention, that i decided to implement a translucent navigation bar that would turn opaque for use. I decided on this approach so as not to obscure the screen for the user, especially on a mobile phone.**
+
+
+## **Feature - 4- ( Contact Form )**
+
+![Main Navigation bar](assets/support/contact-form.jpg)
+
+For the  Contact-form feature, I chose a simple unclutterd look. With lots of space.
+I also ensured that the fields were of the **'Required'** type. This will ensure that 1. web-bot will find it difficult to post 
+2. Users must fill out details especially email to post
+3. The owner will atleast get the name and email address of posters, thus satisfying their requirement
+4. Users must also click a check box to agree with sending the data, thus complying with data-protection laws. Although BEF have not provided the details of this, I expect it will not be any great hardship to drop in a link to reference it. My thinking is BEF may have other websites and linking to a central location will ensure that theier legal team only need to update a specific location at will.
+
+These are the two most important features required for the site.
 
 ---
-
 
 
 # **FEATURES LEFT TO IMPLEMENT**
----
+
+ The out of scope feature discussed with BEF breifly, will need further thought if and when they wish to implement it. As it stands there are may routes to achieve this objective. Some are more expedient and cost-effective. My initial thoughts were
+
+1. Site integration of the feature
+2. Just collate the data nad contact details on  a backend. Harvest the dat and import into a Common Off the shelf (COTS) web mailer system.
+3. Create an auto responder backend system to mail users.
+
 ---
 
 
