@@ -111,7 +111,7 @@ BEF have said that they require five things from the initial site release.
 |5|Collect user data / Contact Section|Feature|
 |6|Post communication to users|Out-of-scope
 
- We will place feature -6- as Out of scope OOS, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using an admin login credential to stop harassment mailing.
+ We will place feature -6- as Out of scope **OOS**, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using an admin login credential to stop harassment mailing.
  Also we will most probably need to integrate a special page for the administrator or owner to access such a feature. In short this feature will be demed curently out of scope.
 
 #### When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
@@ -128,7 +128,7 @@ The appoach I have decided to use in completing the project and site design is t
 
 Following further discussions to flesh out the requirements and scope, Black Eagle films said this website will be the best way of engaging their audience initially, as most of their target audiience have access to computers or mobile devices and are comfortable watching media content in its various forms.
 
-In addition using the internet and web-technologies will allow them to capitalise on a broader geographic regions with significantly reduced capital expenditure.
+**In addition using the internet and web-technologies will allow them to capitalise on a broader geographic regions with significantly reduced capital expenditure**.
 
 This is important because as an independent film producing company, they have limited funding.
 
@@ -146,22 +146,25 @@ Following clarification of BEF's requirements for their website I have dicided o
 * **The website will be a simple single page scroller with multiple sections.
 It will have a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page**.
 
-* I have put to BEF, that  many people have **smart phones capable of web access**, which is only increasing in volume yer by year. The chances are first point of contact with the film protion material, should be the phone.
-People are more comfortable with scroling on a small touch screen phone while on the move than trying to read the navigation bar. Its more natural.Also they will not be on the site for typing in large bits of data, rather absorbing the info. Therfore even the section for supplying contact details should be limited and brief ( Atleast at first contact).
+* I have put to BEF, that  many people have **smart phones capable of web access**, which is only increasing in volume yearly. The first point of contact with the film protion material, should be the phone as it is ubiquitous.
+Also, people are more comfortable with hand guesture scrolling on a small touch screen phone while on the move than trying to read the navigation bar. It's more natural. Also, user they will not be on the site for typing in large bits of data, rather absorbing the info shown.
 
-* I also highlighted the fact that the film medium on release may actually be consumed on a smartphone. For may people this is a norm, especially if the film is placed on a streaming service such as Netflix or Amazon.
+* The section for supplying contact details should be limited and brief ( Atleast at first contact).
 
-* We shall have a navigation bar also, because although we will be employing **mobile first design principles**. We do envisage other members of their audince having access to computers and tellivison also. The latter frequently does not hav touch screen capabilities in a significant volume.
+* I also highlighted the fact that the film medium on release may actually be ulimately consumed on a smartphone. For many people this is a norm, especially if the film is placed on a streaming service such as **Netflix** or **Amazon Prime**.
+
+* I shall also implement a navigation bar, because although we will be employing **mobile first design principles**. We do envisage some members of the audience having access to desktop-computers and televison also. The latter usually does not offer touch screen capabilities in any significant volume.
 
 * I have also decided to go with a plain light background in contrast to my initial thoughts. This will allow for the clean fresh look. BEF have been clear that the film is not to be confused with standard horror gore, therefore I will avoid any references to blood and guts imagery.
 
-* BEF has said in conversation, it is a spooky drama, rather than a horror and they also want to gain a wider scope of fans for the film.
+* BEF has said in conversation, the film is a spooky drama, rather than a horror and they also wish it to appeal to a wider audience demographics.
 
 * My initial thoughts were to have the site on a predominat dark/black background, but this would lean towards the type of film that BEF wish to differentiate theselves from.
 
- Indeed from my conversations I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes taht would push up their certification rating. 
+* Indeed from my conversations I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes taht would push up their certification rating. 
  
- BEF wish the film to be promoted as a spooky tea-time mystery, and has said the film does not contain nudity or strong foul language. They also say it has has an intended positive message with a christian slant, and they wish it to be certified as a PG.
+**BEF wish the film to be promoted as a spooky tea-time mystery, and has said the film does not contain nudity or strong foul language. They also say it has has an intended positive message with a christian slant, and they wish it to be certified as a PG.**
+
 This has clarified and convinced me that I should avoid anything contentious, and pursue a direction that won't upset people by misrepresenting this fact.
 
 #### **The sections on the single scroll page will be as follows:**
