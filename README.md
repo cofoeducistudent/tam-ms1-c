@@ -169,10 +169,12 @@ To Validtae the need for the features, I carried out a user story process.
 * Contact section
 * Download section
 3. I will implement  **Implicit features** decided by me as the web developer.
+* Navigation Bar
+* Leagl section
+* Various Stills to populate the scroll section
+4. The website **sending communication out to the user is deemed out of scope**.
 
-4. The website Sending communication out to the user is ** deemed out of scope.**
-
-| Scope Item | In/Out|Type|
+|Scope Item|In/Out|Type|
 |---|:---:|:--- |
 |About section| In Scope|Explicit|
 |Trailer section|In Scope|Explicit|
@@ -188,13 +190,19 @@ To Validtae the need for the features, I carried out a user story process.
 
 # Structure
 
+
+
+BEF want a basic site for initial promotion. 
+
+They may wish for a more elaborate construct in the future. However, at present having the information data content **integrated within the html** file means I will not need to involve a database such as **MySql**  or other data retrival methods to read the data from.
+
+**Structure data** is inherent within html
+
 **Information data** presented on the site is intregrated within the HTML file.
 
-BEF wanted a basic site for initial promotion. 
+**Color and format data**, will be held within a CSS file
 
-It is feasible that they may wish for a more elaborate construct in the future. However, at present having the data content integrated within the html file means I will have no need to involve myself with a database such as **MySql** to read from.
-
-Color and format data, will be held within a CSS file
+**Bootstrap 4** will be used predominantly to construct the site
 
 ## File Layout
 
@@ -203,14 +211,17 @@ Color and format data, will be held within a CSS file
 
 I will implement the above filestructure for the website
 
-* The root folder will hold all the other folders -
-* **CSS/IMAGES/MEDIA/SUPPORT**
-& (Index.html & submission.html)
+The **ROOT** folder will hold all the other folders -
 
-* The assets folder will hold - CSS folder & Images folder
-
-* The SUPPORT Folder will hold files for creating the README.md  MARKDOWN support files, and can be deleted
-during a formal deployment.
+|ROOT|ASSETS|CSS|IMAGES|SUPPORT|
+|:---:|:---:|:---:|:---:|:---:|
+|index.html|-|-|-|-|
+|submission.html|-|-|-|-|
+|README.md|-|-|-|-|
+|.gitignore|-|-|-|-|
+|-|CSS|style.css|various images for website|various images for README.md|
+|ASSETS|-|-|-|-|
 
 
 ---
+
