@@ -68,7 +68,7 @@ Black Eagle films anticipate the site users or customers are movie-goers and som
 
 * In addition, they like to see or find out something about the production.
 
-* If interested,  users normally like the option to contact the film promoters if they have any questions, such as what the certification rating is expected to be when the film is released and where it will be shown.
+* If interested,  users like the option to contact the promoters if they have any questions, such as what the certification rating is expected to be when the film is released and where it will be shown.
 
 #### **SITE OWNER GOAL**
 From Black Eagle Film’s perspective, they wish the site to be a first step in their promotion stratergy for the film , providing typically expected information to their customers.
@@ -83,7 +83,8 @@ Therefore, Black Eagle Films have asked for the site to:
 1.	Have a nice clean fresh and simple look with a colour scheme that fits the material. They will supply images.
 2.	They wish to show picture stills and/or  promotional material for the film to entice the audience.
 3.	They also wish to show a movie trailer to help entice the audience, wheting their appetite.
-4.	Finally  they wish to collect basic contact details from users for future promotional and marketing endeavours.
+4.  Provide an ability to offer the user more off-line information (Like a press-kit)
+5.	Finally  they wish to collect basic contact details from users for future promotional and marketing endeavours.
 
 #### Advanced potential features
 **Black Eagle Films have indicated that in the future, there is a chance that they would wish the website to be capable of sending messages back to their fans utilising the contact details gathered. However, they have agreed that this feature will fall under a different release**.
@@ -96,25 +97,23 @@ Therefore, Black Eagle Films have asked for the site to:
 **Black Eagle Films will be the owner of the site after deployment, and I will be refer to them in this document as BEF for simplicity.**.
 
 BEF have said that they require five things from the initial site release.
-1. One is an asthetic.
-2. The other four are features.
-3. Finally they anticipated **( but not green-lit )** another feature for the future.
+* One is an aesthetic.
+* The other four are features.
+* BEF also anticipate **( but not green-lit )** another feature for the future.
 
-#### Requirements Table:
+#### Requirements Table
 
 | Requirement No| Item | Classification |
-| -------------- |:----------------------:|:-------------| 
-|1 | Clean simple look & a suitable color scheme | Asthetic |
+| -------------- |:----------------------:|:-------------|
+|1|Clean simple look & a suitable color scheme|Asthetic|
 |2|Have Pictures & Promo info |Feature|
 |3|Production/Behind The scenes|Feature|
 |4|Movie Trailer|Feature|
-|5|Collect user data / Contact Section|Feature|
-|6|Post communication to users|Out-of-scope
+|5|Download Section|Feature|
+|6|Collect user data / Contact Section|Feature|
+|7|Post communication to users|Out-of-scope
 
- We will place feature -6- as Out of scope **OOS**, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using an admin login credential to stop harassment mailing.
- Also we will most probably need to integrate a special page for the administrator or owner to access such a feature. In short this feature will be demed curently out of scope.
-
-#### When further quizzed as to the nature of promo-material wanted on the site. BEF eloborated that they will provide a **press-kit pdf** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site.
+#### Feature **(7)** as Out of scope **OOS**, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using admin login credential to stop spam mailing. There is also the chance that BEF may decide to utilize a different system to do this as many ofther companies do. BEF also spoke about promo material. When further quizzed as to the nature of promo-material, BEF eloborated that they will provide a **'Press-kit pdf'** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site. This pdf will be covered under the **download feature**.
 ---
 #### Approach
 
@@ -179,6 +178,9 @@ To Validtae the need for the features, I carried out a user story process. The r
 
 #### User Stories
 
+**User** = A Typical end user
+**Owner** = BEF
+
 |User Story Element|User Type| Feature|Reason/Goal|
 |:---:|:---|:---|:---|
 |1|As a User|I need a Navigation-bar|So that I can navigate through the site easily|
@@ -190,7 +192,9 @@ To Validtae the need for the features, I carried out a user story process. The r
 |7|As an Owner|I need an About section|So that I can tell potential users quickly what the film is about|
 |8|As an Owner|I need a trailer section|So that I can entice potential users to come to see the film|
 |9|As an Owner|I need a behind the scenes section|So that I can satisfy interest from users - film fans|
-|10|As an Owner|I need a contacts form|So that I can gather contact information and data from my users|
+|10|As an Owner| I need a download feature|So I can present a presskit or other promotional material to  Users|
+|11|As an Owner|I need a contacts form|So that I can gather contact information and data from my users|
+
 
 ---
 
@@ -204,11 +208,11 @@ To Validtae the need for the features, I carried out a user story process. The r
 * Production (behind the scenes section)
 * Contact section
 * Download section
-3. I will implement  **Implicit features** decided by me as the web developer.
+3. I will implement the following **Implicit features** decided by me as the web developer.
 * Navigation Bar
-* Leagl section
-* Various Stills to populate the scroll section
-4. The website **sending communication out to the user is deemed out of scope**.
+* Legal section
+* Various picture stills provided by BEF distributed to populate the scroll section
+4. The website **sending communication feature is agreed out of scope**.
 
 |Scope Item|In/Out|Type|
 |---|:---:|:--- |
@@ -222,16 +226,18 @@ To Validtae the need for the features, I carried out a user story process. The r
 |Message Users|Out of Scope|Explict|
 
 ---
+## **(S)tructure**
 
-BEF want a basic site for initial promotion. They may wish for a more elaborate construct in the future. However, at present having the information data content **integrated within the html** file means I will not need to involve a database such as **MySql**  or other data retrival methods to read the data from.
 
-**Structure data** is inherent within html
+Because BEF want a basic static site for initial promotion. I will have  'content-data'  **integrated within the html** file means I will not need to involve a database such as **MySql**  or other data retrival methods to pull the data from. In effect...
 
-**Information data** presented on the site is intregrated within the HTML file.
+**Structure data**, is inherent within html
 
-**Color and format data**, will be held within a CSS file
+**content-data** presented on the site, is intregrated within the HTML file.
 
-**Bootstrap 4** will be used predominantly to construct the site
+**Color & format data**, will be held within CSS
+
+**Bootstrap4** will be used as the framework to construct the site
 
 #### File Layout
 
@@ -251,12 +257,22 @@ The **ROOT** folder will hold all the other folders -
 |-|CSS|style.css|various images for website|various images for README.md|
 |ASSETS|-|-|-|-|
 
----
-## **(S)tructure**
 
+## Wireframes
 
+To get a basic idea of what the site will look like on completion, I created a wireframe to share with BEF.
 
+![The Attachment Site - Wireframe Mockup V1 ](assets/support/the-attachmentmovie-mock1.jpg)
 
+I shared this with BEF and after further discussion slightly improved it.
+* Changed header
+* Menubar content.
+* Changed naming from behind the scenes - production
+* Added - download section
+* Added -legal section
+* Added - bottom copyright message
+
+![The Attachment Site - Wireframe Mockup V2 ](assets/support/the-attachmentmovie-mock2.jpg)
 
 ---
 ## **(S)keleton**
@@ -275,6 +291,8 @@ Wireframes
 
 # **FEATURES**
 ---
+As previously stated, the website will contain a few features. Some have been requested by BEF **(Explicitly)** and others will be implemented by the developer, because it makes sense for acheiving the overall solution **(Implicit)**
+
 
 
 ---
