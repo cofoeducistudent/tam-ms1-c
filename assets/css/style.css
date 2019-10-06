@@ -75,7 +75,7 @@ body {
     -webkit-transition-timing-function: ease-out;
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     max-height:50px;
 }
 
@@ -91,7 +91,7 @@ body {
     -o-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
     opacity: 100;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     max-height:280px;
 }
 
@@ -196,16 +196,6 @@ body {
     color: #14152e;
 }
 
-/* ######################## */
-
- 
- 
-
-
-
-
-
-/* ####################### */
 
 /* Bottom info-bar section */
 .bottom-bar {
