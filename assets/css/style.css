@@ -48,10 +48,12 @@ body {
     padding-top: 30px;
 }
 /* give extra head space to nav items */
+
 .nav-item {
     padding-top: 10px;
     min-height: 25px;
 }
+
 /* Make title part ("Attachment") uppercase */
 .make-ucase {
     text-transform: uppercase;
@@ -132,6 +134,18 @@ body {
     margin-top: 20px;
     color: #14152e;
 }
+
+/* ######################## */
+
+ 
+ 
+
+
+
+
+
+/* ####################### */
+
 /* Bottom info-bar section */
 .bottom-bar {
     background-color: #0000;

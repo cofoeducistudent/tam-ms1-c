@@ -424,8 +424,9 @@ Developement Testing
 
 ### **HTML**
 Using HTML validator
-|Tool|Version| Code Validator|Source|
-|---|---|---|---|
+
+|Tool|Version|Code Validator|Source|
+|:---:|:---:|:---:|:---:|
 |HTML online Validator|n/a|Code Validation - To Validate the HTML code|[https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input)|
 ### **CSS**
 Using CSS Validator
