@@ -497,6 +497,20 @@ Note: The support folder holds the images to support this README.md. It is not r
 [Stop text moving out of bootstrap column - Stack-Overflow - Phillip Feldmann](https://stackoverflow.com/questions/34251102/text-moving-out-of-column-in-bootstrap)
 * code from stack-overflow - **Using nav-fill w-100** with Bootstrap 4  - rav-ram
 [Filling navbar total width - stack-overflow](https://stackoverflow.com/questions/41622790/bootstrap-4-how-to-have-a-full-width-navbar-with-the-content-in-a-container-li)
+
+
+* Thanks to Learnish on youtube for code snippet, and instructions how to implement
+[Ato collapse Nav bar](https://www.youtube.com/watch?v=5y6NFy5M9z8)
+<!--------------- Paste it before </body> tag ------------->
+
+<script type="text/javascript">    
+           $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+      </script>
+
+<!---- Copy and paste it on anchor tag class=”js-scroll-trigger” as show in video ---->
+
 ---
 ## **Media**
 

@@ -80,17 +80,19 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
+    
+
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
 
                     <ul  >
-                            <li class="nav-item"><a class="text-light" href="index.html"><span class="fas fa-home"></span> Home</a></li>
-                            <li class="nav-item"><a class="text-light" href="#about"><span class="fas fa-book-reader"></span> About</a></li>
-                            <li class="nav-item"><a class="text-light" href="#trailers"><span class="fas fa-film"></span> Trailers</a></li>
-                            <li class="nav-item"><a class="text-light" href="#production"><span class="fas fa-theater-masks"></span> Production</a></li>
-                            <li class="nav-item"><a class="text-light" href="#contact-us"><span class="fas fa-envelope"></span> Contact</a></li>
-                            <li class="nav-item"><a class="text-light" href="#downloads"><span class="fas fa-download"></span>Downloads</a></li>
+                            <li class="nav-item "><a class="js-scroll-trigger" class="text-light " href="index.html"><span class="fas fa-home"></span> Home</a></li>
+                            <li class="nav-item "><a class="js-scroll-trigger"  class="text-light" href="#about"><span class="fas fa-book-reader"></span> About</a></li>
+                            <li class="nav-item"><a  class="js-scroll-trigger" class="text-light" href="#trailers"><span class="fas fa-film"></span> Trailers</a></li>
+                            <li class="nav-item"><a  class="js-scroll-trigger" class="text-light" href="#production"><span class="fas fa-theater-masks"></span> Production</a></li>
+                            <li class="nav-item"><a  class="js-scroll-trigger" class="text-light" href="#contact-us"><span class="fas fa-envelope"></span> Contact</a></li>
+                            <li class="nav-item"><a  class="js-scroll-trigger" class="text-light" href="#downloads"><span class="fas fa-download"></span>Downloads</a></li>
                         </ul>
 
             </ul>
@@ -99,7 +101,7 @@
 
 
 
-
+  
 
 
 
@@ -814,6 +816,20 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!--------------- Paste it before </body> tag ------------->
+
+<script type="text/javascript">    
+    $('.js-scroll-trigger').click(function() {
+$('.navbar-collapse').collapse('hide');
+});
+</script>
+
+<!---- Copy and paste it on anchor tag class=”js-scroll-trigger” as show in video ---->
+
+
+
+
 </body>
 
 </html>
