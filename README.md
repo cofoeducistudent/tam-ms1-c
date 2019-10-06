@@ -403,8 +403,8 @@ To create the website I used various tools and technologies. I have listed these
 |Git-Hub|2.23.0|Git Cloud Repository Storage Facility|[https://github.com](https://github.com)
 |TinyJpg|n/a|Image compression/ Size reduction|[https://tinyjpg.com/](https://tinyjpg.com)
 |Colormind|n/a|Used to get appropriate colors for site|[http://colormind.io/image/](http://colormind.io/image/)
-|HTML Validator|n/a|Code Validation - To Validate the HTML code|[https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input)|
-|CSS Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/#validate_by_input)|
+|HTML online Validator|n/a|Code Validation - To Validate the HTML code|[https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input)|
+|CSS online Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/#validate_by_input)|
 |Clideo|n/a|Online Video Compressor - Compress trailer for website|[https://clideo.com/compress-video](https://clideo.com/compress-video)
 |Balsmiq|3|Wireframe-Mockup Software|[https://balsamiq.com/wireframes/](https://balsamiq.com/wireframes/)
 |CSS - Autoprefixer |n/a| Autoprefix CSS files for browser compatibility|[https://autoprefixer.github.io/](https://autoprefixer.github.io/)|
@@ -416,10 +416,36 @@ To create the website I used various tools and technologies. I have listed these
 ---
 
 # **TESTING**
----
-During the building of this website testing was carried out. Frequently using the **Chrome Developer Tools**
+
+During the building of this website I carried out various test. Frequently using the **Chrome Developer Tools**
 I also used the **HTML & CSS checker from W3Schools**. Following are areas tested.
 
+Developement Testing
+
+### **HTML**
+Using HTML validator
+|Tool|Version| Code Validator|Source|
+|---|---|---|---|
+|HTML online Validator|n/a|Code Validation - To Validate the HTML code|[https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input)|
+### **CSS**
+Using CSS Validator
+|Tool|Version| Code Validator|Source|
+|---|---|---|---|
+|CSS online Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/|
+
+### **CHROME TOOLS**
+Chrome Tools was used to test the mobile forst responsivenes and breakpoints
+![Chrometools](assets/support/test-chrometools-1.png)
+
+## **Operation Test**
+|No|TestObjective|Before Image |After Image|Test-Status|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1 |Click - Home Button|[image]()|[image]()|-|
+|2 |Click - About Button|[image]()|[image]()|-|
+|3 |Click - Trailer Button|[image]()|[image]()|-|
+|4 |Click - Production Button|[image]()|[image]()|-|
+|5 |Click - Contact Button|[image]()|[image]()|-|
+|6 |Click - Download Button|[image]()|[image]()|-|
 ---
 
 # **DEPLOYMENT**
@@ -430,15 +456,17 @@ I also used the **HTML & CSS checker from W3Schools**. Following are areas teste
 To clone the repository (repo) simply
 
 1. Install [Git 2.23.0](#technologies-used) on your local drive, and ensure it is working.
-2. from my repo copy the clone link found by clicking on the button below
+2. From my git-hub, copy the clone link found by clicking on the button below
 ![how to clone repo](assets/support/how-to-clone-repo.png)
 3. Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows Run-CMD
-4. navigate to where you wish to create the repo
-5. type the following command **"git clone [paste the link]"**  ; where link should be on your clipboard from clicking and copying the link in git-hub button in the image
+4. Navigate to where you wish to create the repo
+5. Type the following command **"git clone [paste the link]"**  ; where link should be on your clipboard from clicking and copying the link in git-hub button in the image
 
 **Note: if you wish to see the site in operation. You will need access to a webserver**.
 * I used **MAMP** [MAMP](#technologies-used) on Mac to develop the site
-* An alternative **XAMPP** for windows
+* An alternative **XAMPP** exists for windows
+
+You would clone the git repository
 
 ## **Production Hosting**
 **The file structure is standard tree flow**.
@@ -448,7 +476,7 @@ To clone the repository (repo) simply
 4. The hidden file **.gitignore** can also be deleted
 5. Ensure the correct rights are placed on your file structure. Your admin should be able to help.
 
-The file structure is references are relative. Therefore no changes are required. 
+The file structure references are relative. Therefore no changes should be needed.
 
 You should end up with two files (**index.html** & **submission.html**) in the \public directory with the **ASSETS** folder.
 
@@ -463,8 +491,8 @@ Note: The support folder holds the images to support this README.md. It is not r
 
 **I created all the text content within the site**
 
-Some code was taken from the Bootstrap documentation ( Carousel )
-
+* Some code was taken from the Bootstrap documentation ( Carousel )
+* Thanks for the code snippet by Phillip Feldmann which stopped text content escaping the Bootstrap columns.
 [Stop text moving out of bootstrap column - Stack-Overflow - Phillip Feldmann](https://stackoverflow.com/questions/34251102/text-moving-out-of-column-in-bootstrap)
 
 ---
@@ -483,7 +511,10 @@ Some code was taken from the Bootstrap documentation ( Carousel )
 * **Actors** : Duncan Malcolm / Leah Cooper / Tony Honickberg / Michelle Coverly
 * **Crew** : Eno Enofik - AD / Felice Goea - DP / Julia Fecchio - Editor
 * I would like to acklowledge a few people from code-institute that helped and offered advice when I struggled to make this site.
-* **Anthony O'brian / Mentor - Narinder Singh**
+* **Anthony O'brian / Simen Daehlin / Mentor - Narinder Singh**
 ---
+Disclaimer:
 
+* ### **The characters and scenarios depicted in the film  are ficticious and created by me. Therefore please not that there is no 'Father Malachi" to acknowledge**.
+* ### **Black Eagle Films(BEF) was a company I created for the purposes of the film production 2014, It is now dissolved. I am the sole owner of all the materials produced by the company**.
 **END**
