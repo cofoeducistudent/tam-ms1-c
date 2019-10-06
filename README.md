@@ -495,7 +495,8 @@ Note: The support folder holds the images to support this README.md. It is not r
 * Some code was taken from the Bootstrap documentation ( Carousel )
 * Thanks for the code snippet by Phillip Feldmann which stopped text content escaping the Bootstrap columns.
 [Stop text moving out of bootstrap column - Stack-Overflow - Phillip Feldmann](https://stackoverflow.com/questions/34251102/text-moving-out-of-column-in-bootstrap)
-
+* code from stack-overflow - **Using nav-fill w-100** with Bootstrap 4  - rav-ram
+[Filling navbar total width - stack-overflow](https://stackoverflow.com/questions/41622790/bootstrap-4-how-to-have-a-full-width-navbar-with-the-content-in-a-container-li)
 ---
 ## **Media**
 
