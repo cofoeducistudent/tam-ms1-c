@@ -431,7 +431,7 @@ Using HTML validator
 Using CSS Validator
 |Tool|Version| Code Validator|Source|
 |---|---|---|---|
-|CSS online Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/|
+|CSS online Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/)|#validate_by_input|
 
 ### **CHROME TOOLS**
 Chrome Tools was used to test the mobile forst responsivenes and breakpoints
@@ -498,7 +498,7 @@ Note: The support folder holds the images to support this README.md. It is not r
 ---
 ## **Media**
 
-* The photos and graphich images used on this site are credited to Black Eagle Films (BEF) of which I was owner.
+* The photos and graphic images used on this site are credited to Black Eagle Films (BEF) of which I was owner.
 * The attachment was a film based on a screenplay I wrote, directed & produced a few years ago.
 * I created the **download - press-kit pdf** and the posters images a few years ago for promotion of the film.
 * Screenshots were captured from the HD version of the film using **Mac version of Monosnap**.
@@ -515,6 +515,6 @@ Note: The support folder holds the images to support this README.md. It is not r
 ---
 Disclaimer:
 
-* ### **The characters and scenarios depicted in the film  are ficticious and created by me. Therefore please not that there is no 'Father Malachi" to acknowledge**.
+* ### **The characters and scenarios depicted in the film  are ficticious and created by me. Therefore please note that there is no 'Father Malachi" to acknowledge**.
 * ### **Black Eagle Films(BEF) was a company I created for the purposes of the film production 2014, It is now dissolved. I am the sole owner of all the materials produced by the company**.
 **END**
