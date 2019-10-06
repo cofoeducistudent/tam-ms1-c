@@ -46,9 +46,70 @@ body {
     transition-timing-function: ease-in;
     opacity: 100;
     padding-top: 30px;
+     
 }
-/* give extra head space to nav items */
 
+
+
+
+
+
+
+
+
+/* Burger Navbar */
+/* Hide Burger Navbar by making making it translucent */
+.custom-navbar-burger {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    opacity: .10;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    padding-top: 10px;
+    max-height:50px;
+}
+
+/* Reveal Menu on Burger Hover */
+.custom-navbar-burger:hover {
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    opacity: 100;
+    padding-top: 30px;
+    max-height:280px;
+}
+
+/* Remove styles prefix dots */
+.custom-navbar-burger ul li{
+
+    list-style: none;
+
+}
+
+
+
+
+
+
+
+
+/* give extra head space to nav items */
 .nav-item {
     padding-top: 10px;
     min-height: 25px;
