@@ -46,17 +46,7 @@ body {
     transition-timing-function: ease-in;
     opacity: 100;
     padding-top: 30px;
-     
 }
-
-
-
-
-
-
-
-
-
 /* Burger Navbar */
 /* Hide Burger Navbar by making making it translucent */
 .custom-navbar-burger {
@@ -78,7 +68,6 @@ body {
     /* padding-top: 10px; */
     max-height:50px;
 }
-
 /* Reveal Menu on Burger Hover */
 .custom-navbar-burger:hover {
     -webkit-transition-property: all;
@@ -94,23 +83,23 @@ body {
     /* padding-top: 30px; */
     max-height:280px;
 }
-
 /* Remove styles prefix dots */
 .custom-navbar-burger ul li{
-
     list-style: none;
-
 }
-
-
-
-
+/* Burger Nav-items colorization */
+ul li a {
+color :#F5F5F5;
+/* Burger Nav-items colorization on hover */
+}
+ul li a:hover {
+    color :#C3CDD4;
+    }
 /* give extra head space to nav items */
 .nav-item {
     padding-top: 10px;
     min-height: 25px;
 }
-
 /* Make title part ("Attachment") uppercase */
 .make-ucase {
     text-transform: uppercase;
@@ -191,8 +180,6 @@ body {
     margin-top: 20px;
     color: #14152e;
 }
-
-
 /* Bottom info-bar section */
 .bottom-bar {
     background-color: #0000;
@@ -284,4 +271,3 @@ body {
     height: auto;
     align-content: center;
 }
-
