@@ -383,7 +383,7 @@ These are the two most important features required for the site.
 ---
 
 # **TECHNOLOGIES USED**
----
+
 To create the website I used various tools and technologies. I have listed these below.
 
 |Technology Used|Version|Reason for use|Manufacturers-site-link|
@@ -407,10 +407,10 @@ To create the website I used various tools and technologies. I have listed these
 |CSS Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/#validate_by_input)|
 |Clideo|n/a|Online Video Compressor - Compress trailer for website|[https://clideo.com/compress-video](https://clideo.com/compress-video)
 |Balsmiq|3|Wireframe-Mockup Software|[https://balsamiq.com/wireframes/](https://balsamiq.com/wireframes/)
-|CSS - Autoprefixer |n/a| Autoprefix CSS files for brpwser compatibility|[https://autoprefixer.github.io/](https://autoprefixer.github.io/)|
+|CSS - Autoprefixer |n/a| Autoprefix CSS files for browser compatibility|[https://autoprefixer.github.io/](https://autoprefixer.github.io/)|
 |Fontawsome|5.11.2| Icon supply for website |[https://fontawesome.com/](https://fontawesome.com/)|
-|Googlefonts|n/a| provide access to font family ("Exo") |https://fonts.google.com](https://fonts.google.com)|
-
+|Googlefonts|n/a| provide access to font family ("Exo") |[https://fonts.google.com](https://fonts.google.com)|
+|MAMP|5.3| Webserver integrated package |[https://www.mamp.info/en/](https://www.mamp.info/en/)|
 * Note that **Bootstrap4.x uses Javascript/Jquery/popper** as part of its suite to function fully.
 
 ---
@@ -427,15 +427,38 @@ I also used the **HTML & CSS checker from W3Schools**. Following are areas teste
 
 ## **Clone the Git-hub site**
 
-## **Production Hosting**
+To clone the repository (repo) simply
 
-Note: The support folder holds the images to support this README.md. It is not required on a live site.
+1. Install [Git 2.23.0](#technologies-used) on your local drive, and ensure it is working.
+2. from my repo copy the clone link found by clicking on the button below
+![how to clone repo](assets/support/how-to-clone-repo.png)
+3. Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows Run-CMD
+4. navigate to where you wish to create the repo
+5. type the following command **"git clone [paste the link]"**  ; where link should be on your clipboard from clicking and copying the link in git-hub button in the image
+
+**Note: if you wish to see the site in operation. You will need access to a webserver**.
+* I used **MAMP** [MAMP](#technologies-used) on Mac to develop the site
+* An alternative **XAMPP** for windows
+
+## **Production Hosting**
+**The file structure is standard tree flow**.
+1. Once your hosting site has been purchased and setup
+2. Copy the contents of the TAM-MS1-C into the root\public\ of the website host plan
+3. delete the **SUPPORT** folder
+4. The hidden file **.gitignore** can also be deleted
+5. Ensure the correct rights are placed on your file structure. Your admin should be able to help.
+
+The file structure is references are relative. Therefore no changes are required. 
+
+You should end up with two files (**index.html** & **submission.html**) in the \public directory with the **ASSETS** folder.
+
+Note: The support folder holds the images to support this README.md. It is not required on a live site. Therefore it can be deleted on a production deployment
+
 
 ---
 
 # **CREDITS**
 
----
 ## **Content**
 
 **I created all the text content within the site**
@@ -454,13 +477,13 @@ Some code was taken from the Bootstrap documentation ( Carousel )
 ---
 
 ## **Acknowledgements**
----
+
 * I would like to acknowledge all the actors and crew that helped me make the attachment, especially
 
 * **Actors** : Duncan Malcolm / Leah Cooper / Tony Honickberg / Michelle Coverly
 * **Crew** : Eno Enofik - AD / Felice Goea - DP / Julia Fecchio - Editor
 * I would like to acklowledge a few people from code-institute that helped and offered advice when I struggled to make this site.
-Anthony O'brian / Mentor - Narinder Singh
+* **Anthony O'brian / Mentor - Narinder Singh**
 ---
 
 **END**
