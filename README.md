@@ -417,58 +417,50 @@ To create the website I used various tools and technologies. I have listed these
 
 # **TESTING**
 ---
-
-
-
-
+During the building of this website testing was carried out. Frequently using the **Chrome Developer Tools**
+I also used the **HTML & CSS checker from W3Schools**. Following are areas tested.
 
 ---
-
-
-
-
 
 # **DEPLOYMENT**
 ---
 
+## **Clone the Git-hub site**
+
+## **Production Hosting**
+
+Note: The support folder holds the images to support this README.md. It is not required on a live site.
 
 ---
-
-
 
 # **CREDITS**
 
- 
 ---
 ## **Content**
 
-All text and content within the site was created by myself.
+**I created all the text content within the site**
 
+Some code was taken from the Bootstrap documentation ( Carousel )
+
+[Stop text moving out of bootstrap column - Stack-Overflow - Phillip Feldmann](https://stackoverflow.com/questions/34251102/text-moving-out-of-column-in-bootstrap)
 
 ---
 ## **Media**
 
-* The photos and grapichs used on this site are credited to Black Eagle Films (BEF) of which I was owner.
-* The attachment was a film based on a screenplay I wrote, produced and direct a few years ago.
-* The download pdf file was created by me a few years ago, and thesame for the posters images.
-* Screenshots were captured from the HD version of the film.
+* The photos and graphich images used on this site are credited to Black Eagle Films (BEF) of which I was owner.
+* The attachment was a film based on a screenplay I wrote, directed & produced a few years ago.
+* I created the **download - press-kit pdf** and the posters images a few years ago for promotion of the film.
+* Screenshots were captured from the HD version of the film using **Mac version of Monosnap**.
 ---
 
 ## **Acknowledgements**
 ---
 * I would like to acknowledge all the actors and crew that helped me make the attachment, especially
 
-Actors:
-* Duncan Malcolm
-* Leah Cooper
-* Tony Honickberg
-* Michelle Coverly
-
-* Eno Enofik - AD
-* Feliche - DP
-* Julia Fecchio - Editor
-* I would like to acklowledge a few people from code-institute that helped me when I struggled to make this site.
-
+* **Actors** : Duncan Malcolm / Leah Cooper / Tony Honickberg / Michelle Coverly
+* **Crew** : Eno Enofik - AD / Felice Goea - DP / Julia Fecchio - Editor
+* I would like to acklowledge a few people from code-institute that helped and offered advice when I struggled to make this site.
+Anthony O'brian / Mentor - Narinder Singh
 ---
 
 **END**
