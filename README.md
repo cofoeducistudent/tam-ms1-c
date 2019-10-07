@@ -47,8 +47,6 @@
 
 # **UX**
 ---
----
-
 
 ###  **PROJECT MANDATE**
 
@@ -57,7 +55,6 @@
 ![The Attachment](assets/support/ta-poster-m.jpg)
 
 An independent film production company **Black Eagle films(BEF)** are in the process of releasing a horror flick on halloween 2019 called **“The Attachment”**. They need a website developer to create a basic static web site that will aid them in promoting the film.  
-
 
 ## **(S)tratergy**
 
@@ -195,7 +192,6 @@ To Validtae the need for the features, I carried out a user story process. The r
 |10|As an Owner| I need a download feature|So I can present a presskit or other promotional material to  Users|
 |11|As an Owner|I need a contacts form|So that I can gather contact information and data from my users|
 
-
 ---
 
 ## **(S)cope**
@@ -227,7 +223,6 @@ To Validtae the need for the features, I carried out a user story process. The r
 
 ---
 ## **(S)tructure**
-
 
 Because BEF want a basic static site for initial promotion. I will have  'content-data'  **integrated within the html** file means I will not need to involve a database such as **MySql**  or other data retrival methods to pull the data from. In effect...
 
@@ -292,12 +287,9 @@ For wider screen devices tablet & desktop. The navbar is a horizontal span.
 
 * For the main/tablet/desktop navbar, I  chose to use CSS to turn the navbar transluscent to opaque slowly. I used the transition ability in CSS to achieve this. Thus giving iyt a ghostly supernatural feel.
 
-
 ### Skeleton Activity Flow
 
 ![Skeleton-structure](assets/support/skel-structure.jpg)
-
-
 
 ## **(S)urface**
 ---
@@ -334,7 +326,6 @@ For social-media icons, I opted to show
 
 ---
 
-
 # **FEATURES**
 ---
 As previously stated, the website will contain a few features. Some have been requested by BEF **(Explicitly)** and others will be implemented by the developer, because it makes sense for acheiving the overall solution **(Implicit)**
@@ -350,10 +341,7 @@ As previously stated, the website will contain a few features. Some have been re
 |7.|Legal Section|Inscope|Implicit|Shows legal message wished by BEF to the public|
 |8.|Message Users|Out of Scope|Explict| **THIS IS OUT OF SCOPE**|
 
-
-
 ---
-
 
 # **EXISTING FEATURES**
 ---
@@ -364,15 +352,11 @@ The UI is either to scroll or the use of the navigation bar.
 
 ![Main Navigation bar](assets/support/main-navbar.jpg)
 
-
-
 ** However it is worth a mention, that I decided to implement a translucent navigation bar that would turn opaque when used.
 I decided on this approach so as not to obscure the screen for the user, especially on a mobile phone.**
 
 * On mouse hover=Opaque
 * On mouse leave=Translucent (timing 1.5s)
-
-
 
 ## **Feature - 4- ( Contact Form )**
 
@@ -388,7 +372,6 @@ I also ensured that the fields were of the **'Required'** type. This will ensure
 These are the two most important features required for the site.
 
 ---
-
 
 # **FEATURES LEFT TO IMPLEMENT**
 
@@ -465,7 +448,7 @@ Chrome Tools was used to test the mobile forst responsivenes and media breakpoin
 Actually clicking the buttons on **Mobile/Desktop/Mini-navbar**
 
 |No|TestObjective|Before Image |After Image|Test-Status|
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 |1 |Click - Home Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-homepage.jpg)|Passed|
 |2 |Click - About Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-about-section.jpg)|Passed|
 |3 |Click - Trailer Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-trailers-section.png)|Passed|
