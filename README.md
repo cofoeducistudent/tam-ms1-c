@@ -170,7 +170,7 @@ This has clarified and convinced me that I should avoid anything contentious, an
 * **Contact** -  A section providing a means for the users to contact BEF & allow BEF to collect the email addresses
 * **Download** - Press Kit Section, allowing anyone interested to get access to more in-depth material.
 
-To Validtae the need for the features, I carried out a user story process. The results are from **self input** (as a user) and  **BEF requirements**.
+To Validate the need for the features, I carried out a **User Story** process. The results are  **User** and **BEF** requirements.
 
 #### User Stories
 
@@ -179,10 +179,10 @@ To Validtae the need for the features, I carried out a user story process. The r
 
 |User Story Element|User Type| Feature|Reason/Goal|
 |:---:|:---|:---|:---|
-|1|As a User|I need a Navigation-bar|So that I can navigate through the site easily|
-|2|As a User|I need an About section|So, I can quickly understand what the site is about|
+|1|As a User|I need a Navigation-bar| So that I can navigate through the site easily|
+|2|As a User|I need an About section| So, I can quickly understand what the site is about|
 |3|As a User|I need a Trailer section|So that I can view her section of the film to see if it's a kind of film I like|
-|4|As a User|I need a behind-the-scenes section|So that I can understand what type of film production it is and if it's something that is of interest to me|
+|4|As a User|I need a behind-the-scenes(production) section|So that I can understand what type of film production it is and if it's something that is of interest to me|
 |5|As a User|I need a contacts form or page|So that I can find out a bit more about the film if I need to|
 |6|As an Owner|I need a navigation bar|So that I can navigate through the site easily|
 |7|As an Owner|I need an About section|So that I can tell potential users quickly what the film is about|
@@ -223,11 +223,11 @@ To Validtae the need for the features, I carried out a user story process. The r
 ---
 ## **(S)tructure**
 
-Because BEF want a basic static site for initial promotion. I will have  'content-data'  **integrated within the html** file means I will not need to involve a database such as **MySql**  or other data retrival methods to pull the data from. In effect...
+Because BEF wants a basic static site for initial promotion. I will have  'content-data'  **integrated within the Html** file means I will not need to involve a database such as **MySql**  or other data retrieval methods to pull the data from. In effect...
 
-**Structure data**, is inherent within html
+**Structure data** is inherent within Html
 
-**content-data** presented on the site, is intregrated within the HTML file.
+**content-data** presented on the site is integrated  within the HTML file.
 
 **Color & format data**, will be held within CSS
 
@@ -238,7 +238,7 @@ Because BEF want a basic static site for initial promotion. I will have  'conten
 ![File Layout Structure](assets/support/site-filestructure.png)
 ---
 
-I will implement the above filestructure for the website
+I will implement the above file structure for the website
 
 The **ROOT** folder will hold all the other folders -
 
@@ -275,16 +275,16 @@ Using ***Mobile-First** as a design approach, the user is met with two different
 
 ![Mobile-screen](assets/support/mobile-screen.jpg)
 
-For mobile devices we use the ubiqitous Burger navbar. This conceals the links untill clicked*
+For mobile devices we use the ubiquitous Burger navbar. This conceals the links until clicked*
 
-* A point of note was that I had an issue with this approach implemented on Bootstrap4. By default you can click and expand the sublinks. However, this did not close automatically, leading to a poor user experience. I did not find a solution in bootstraps library directly, but had to resort to search the web.
+* A point of note was that I had an issue with this approach implemented on Bootstrap4. By default, you can click and expand the sublinks. However, this did not close automatically, leading to a poor user experience. I did not find a solution in bootstraps library directly but had to resort to searching the web.
 
-* I found that this was a rather well known issue, and I had to utilize a javscript code snippet to hide the selection after it was pressed.This was essential on a modile device, becuase if left as was, the menu links obscured the screen real-estate (Please see acknowledgements).
+* I found that this was a rather well-known issue, and I had to utilize a javascript code snippet to hide the expanded nav-bar after a selection is made. This was essential on a mobile device because if left as was, the menu links obscured the screen real-estate (Please see acknowledgements).
 
 For wider screen devices tablet & desktop. The navbar is a horizontal span.
 ![Mobile-screen](assets/support/desktop-screen.jpg)
 
-* For the main/tablet/desktop navbar, I  chose to use CSS to turn the navbar transluscent to opaque slowly. I used the transition ability in CSS to achieve this. Thus giving iyt a ghostly supernatural feel.
+* For the main/tablet/desktop navbar, I  chose to use CSS to turn the navbar transluscent to opaque slowly. I used the transition ability in CSS to achieve this. Thus giving it a ghostly supernatural feel.
 
 ### Skeleton Activity Flow
 
@@ -294,11 +294,11 @@ For wider screen devices tablet & desktop. The navbar is a horizontal span.
 ---
 BEF wished a clean looking site.
 
-### Color themes
+### Colour themes
 * I decided to use light colours , as they also did not want to give the impression that the film was a dark and gory affair.
 * I chose white as the predominant background  colour.
-* I utilized an AI web tool "Colormind" to choose clors in class with a scanned in photo segment of the film.
-* I then decrease the values so aas to make the final result more pastel.
+* I utilized an AI web tool "Colormind" to choose colours in class with a scanned-in photo segment of the film.
+* I then decreased the values so as to make the final result more pastel like.
 
 ![Colormind sugestion](assets/support/colormind-smart-extraction.png)
 
@@ -306,7 +306,7 @@ BEF wished a clean looking site.
 
 ### Other Aesthetics
 
-* As for more  aesthetics, I chose to implement rounded corners on most of the images. I felt this was somehow warmer and friendly, rather than sharp edgeds
+* As for more  aesthetics, I chose to implement rounded corners on most of the images. I felt this was somehow warmer and friendly, rather than sharp-edged
 
 * I also implemented the "Exo" font-family using **Googlefonts** CDN as that was soft and does not convey horror per-sae.
 
