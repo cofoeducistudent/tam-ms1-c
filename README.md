@@ -54,21 +54,21 @@
 
 ![The Attachment](assets/support/ta-poster-m.jpg)
 
-An independent film production company **Black Eagle films(BEF)** are in the process of releasing a horror flick on halloween 2019 called **“The Attachment”**. They need a website developer to create a basic static web site that will aid them in promoting the film.  
+An independent film production company **Black Eagle films (BEF)** are in the process of releasing a horror flick on Halloween 2019 called **“The Attachment”**. They need a website developer to create a basic static web site that will aid them in promoting the film.  
 
 ## **(S)tratergy**
 
 #### **EXTERNAL USER GOAL**
-Black Eagle films anticipate the site users or customers are movie-goers and some are horror film fans who appreciate a low-budget horror.Been in business for some time BEF have an idea about their market.
+Black Eagle films anticipate the site users or customers are movie-goers and some are horror film fans who appreciate a low-budget horror. Been in business for some time BEF has an idea about their market.
 
-* Typically, users wish to find out about upcoming films, see images from the movie, and of course a trailer  to whet their appetite.
+* Typically, users wish to find out about upcoming films, see images from the movie, and of course, a trailer  to whet their appetite.
 
-* In addition, they like to see or find out something about the production.
+* Also, they like to see or find out something about the production.
 
 * If interested,  users like the option to contact the promoters if they have any questions, such as what the certification rating is expected to be when the film is released and where it will be shown.
 
 #### **SITE OWNER GOAL**
-From Black Eagle Film’s perspective, they wish the site to be a first step in their promotion stratergy for the film , providing typically expected information to their customers.
+From Black Eagle Film’s perspective, they wish the site to be the first step in their promotion strategy for the film, providing typically expected information to their customers.
 
 They wish the site to reflect the nature of the film and **not pander to 'gore-slasher' type materials**.
 
@@ -79,22 +79,22 @@ They wish this information to be used in future promotion or marketing endeavour
 Therefore, Black Eagle Films have asked for the site to:
 1.	Have a nice clean fresh and simple look with a colour scheme that fits the material. They will supply images.
 2.	They wish to show picture stills and/or  promotional material for the film to entice the audience.
-3.	They also wish to show a movie trailer to help entice the audience, wheting their appetite.
+3.	They also wish to show a movie trailer to help entice the audience, whetting their appetite.
 4.  Provide an ability to offer the user more off-line information (Like a press-kit)
-5.	Finally  they wish to collect basic contact details from users for future promotional and marketing endeavours.
+5.	Finally, they wish to collect basic contact details from users for future promotional and marketing endeavours.
 
-#### Advanced potential features
+#### Advanced 'potential' features
 **Black Eagle Films have indicated that in the future, there is a chance that they would wish the website to be capable of sending messages back to their fans utilising the contact details gathered. However, they have agreed that this feature will fall under a different release**.
 
 ---
 
 #### **Project purpose**
-**The purpose of this project then, is to create an initial web  prescence in the form of a basic static website for the soon to be released feature film 'THE ATTACHMENT' from Black Eagle Films.**
+**The purpose of this project then is to create an initial web presence in the form of a basic static website for the soon to be released feature film 'THE ATTACHMENT' from Black Eagle Films.**
 
-**Black Eagle Films will be the owner of the site after deployment, and I will be refer to them in this document as BEF for simplicity.**.
+**Black Eagle Films will be the owner of the site after deployment, and I will be referring to them in this document as BEF for simplicity.**.
 
 BEF have said that they require five things from the initial site release.
-* One is an aesthetic.
+* One is aesthetic.
 * The other four are features.
 * BEF also anticipate **( but not green-lit )** another feature for the future.
 
@@ -102,7 +102,7 @@ BEF have said that they require five things from the initial site release.
 
 | Requirement No| Item | Classification |
 | -------------- |:----------------------:|:-------------|
-|1|Clean simple look & a suitable color scheme|Asthetic|
+|1|Clean simple look & a suitable colour scheme|Aesthetic|
 |2|Have Pictures & Promo info |Feature|
 |3|Production/Behind The scenes|Feature|
 |4|Movie Trailer|Feature|
@@ -110,11 +110,11 @@ BEF have said that they require five things from the initial site release.
 |6|Collect user data / Contact Section|Feature|
 |7|Post communication to users|Out-of-scope
 
-#### Feature **(7)** as Out of scope **OOS**, this is **not green-lit** and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likley implemented using admin login credential to stop spam mailing. There is also the chance that BEF may decide to utilize a different system to do this as many ofther companies do. BEF also spoke about promo material. When further quizzed as to the nature of promo-material, BEF eloborated that they will provide a **'Press-kit pdf'** file for download, as this is typicaly used by press and festivals etc. They will also provide the images and stills for the site. This pdf will be covered under the **download feature**.
+#### Feature (7) is Out of scope OOS, this is not green-lit and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likely implemented using admin login credential to stop spam mailing. There is also the chance that BEF may decide to utilize a different system to do this as many other companies do. BEF also spoke about promo material. When further quizzed as to the nature of promo-material, BEF elaborated that they will provide a 'Press-kit pdf' file for download, as this is typically used by press and festivals etc. They will also provide the images and stills for the site. This pdf will be covered under the download feature.
 ---
 #### Approach
 
-The appoach I have decided to use in completing the project and site design is the **five stage User design principle**.
+The approach I have decided to use in completing the project and site design is the **five-stage User design** principle.
 
 * Stratergy
 * Scope
@@ -122,54 +122,53 @@ The appoach I have decided to use in completing the project and site design is t
 * Skeleton
 * Surface
 
-Following further discussions to flesh out the requirements and scope, Black Eagle films said this website will be the best way of engaging their audience initially, as most of their target audiience have access to computers or mobile devices and are comfortable watching media content in its various forms.
+Following further discussions to flesh out the requirements and scope, Black Eagle films said this website will be the best way of engaging their audience initially, as most of their target audience have access to computers or mobile devices and are comfortable watching media content in its various forms.
 
-**In addition using the internet and web-technologies will allow them to capitalise on a broader geographic regions with significantly reduced capital expenditure**.
-
+Besides, using the internet and web-technologies will allow them to capitalise on broader geographic regions with significantly reduced capital expenditure.
 This is important because as an independent film producing company, they have limited funding.
+The features that have been decided on between Me(Webdesigner) & BEF are as follows:
 
-The **features that have been decided on** between Me(Webdesigner) & BEF are as follows:
 1.	Navigation bar
 2.	About section
 3.	Trailer section
 4.	Behind-the-scenes section
 5.	Contact form
-6. Download Presss-Kit Feature 
-to validate the necessity for these features I have provided user stories to support them.
+6. Download Press-Kit Feature.
 
-Following clarification of BEF's requirements for their website I have dicided on the following approach. 
+To validate the necessity for these features I have provided user stories to support them.
 
-* **The website will be a simple single page scroller with multiple sections.
-It will have a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page**.
+Following clarification of BEF's requirements for their website, I have decided on the following approach.
 
-* I have put to BEF, that  many people have **smart phones capable of web access**, which is only increasing in volume yearly. The first point of contact with the film protion material, should be the phone as it is ubiquitous.
-Also, people are more comfortable with hand guesture scrolling on a small touch screen phone while on the move than trying to read the navigation bar. It's more natural. Also, user they will not be on the site for typing in large bits of data, rather absorbing the info shown.
+* The website will be a **simple single-page scroller** with multiple sections. It will have a navigation bar at the top. The Navigation bar will allow the user to navigate to different sections further down the page.
 
-* The section for supplying contact details should be limited and brief ( Atleast at first contact).
+* I have put to BEF, that many people have smartphones capable of web access, which is only increasing in volume yearly. The first point of contact with the film portion material should be the phone as it is ubiquitous. Also, people are more comfortable with hand gesture scrolling on a small touch screen phone while on the move than trying to read the navigation bar. It's more natural. Also, user they will not be on the site for typing in large bits of data, rather absorbing the info shown.
 
-* I also highlighted the fact that the film medium on release may actually be ulimately consumed on a smartphone. For many people this is a norm, especially if the film is placed on a streaming service such as **Netflix** or **Amazon Prime**.
+* The section for supplying contact details should be limited and brief ( At least at first contact).
 
-* I shall also implement a navigation bar, because although we will be employing **mobile first design principles**. We do envisage some members of the audience having access to desktop-computers and televison also. The latter usually does not offer touch screen capabilities in any significant volume.
+* I also highlighted the fact that the film medium on release may be ultimately consumed on a smartphone. For many people, this is a norm, especially if the film is placed on a streaming service such as **Netflix** or **Amazon Prime**.
 
-* I have also decided to go with a plain light background in contrast to my initial thoughts. This will allow for the clean fresh look. BEF have been clear that the film is not to be confused with standard horror gore, therefore I will avoid any references to blood and guts imagery.
+* I shall also implement a navigation bar, because although we will be employing **mobile-first design principles**. We do envisage some members of the audience having access to desktop-computers and television also. The latter usually does not offer touch screen capabilities in any significant volume.
 
-* BEF has said in conversation, the film is a spooky drama, rather than a horror and they also wish it to appeal to a wider audience demographics.
+* I have also decided to go with a plain light background in contrast to my initial thoughts. This will allow for the clean fresh look. BEF has been clear that the film is not to be confused with standard horror gore, therefore I will avoid any references to blood and guts imagery.
 
-* My initial thoughts were to have the site on a predominat dark/black background, but this would lean towards the type of film that BEF wish to differentiate theselves from.
+* BEF has said in conversation, the film is a spooky drama, rather than horror and they also wish it to appeal to a wider audience demographics.
 
-* Indeed from my conversations I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes taht would push up their certification rating.
+* My initial thoughts were to have the site on a predominant dark/black background, but this would lean towards the type of film that BEF wishes to differentiate themselves from.
 
-**BEF wish the film to be promoted as a spooky tea-time mystery, and has said the film does not contain nudity or strong foul language. They also say it has has an intended positive message with a christian slant, and they wish it to be certified as a PG.**
+* Indeed from my conversations, I gathered BEF wish to capture as much of an audience as possible, for which they avoided filming any scenes that would push up their certification rating.
+
+**BEF wish the film to be promoted as a spooky tea-time mystery and has said the film does not contain nudity or strong foul language. They also say it has an intended positive message with a Christian slant, and they wish it to be certified as a PG.**
 
 This has clarified and convinced me that I should avoid anything contentious, and pursue a direction that won't upset people by misrepresenting this fact.
 
 #### **The sections on the single scroll page will be as follows:**
-* **About** - To quickly inform the user in breif about the film.
-* **Trailer** - Show a trailer from the film
-I have placed this second in order , as people usually wish to get to the meat and potatoes quickly.
+* **About** -  To quickly inform the user in brief about the film.
+
+* **Trailer** - Show a trailer from the film I have placed this second in order, as people usually wish to get to the meat and potatoes quickly.
+
 * **Production** -A small bit about the production of the film
-* **Contact** - A section providing a means for the users to contact BEF & allow BEF to collect the email addresses
-* **Download** - Press Kit Section , allowing anyone intrested to get access to more indepth material.
+* **Contact** -  A section providing a means for the users to contact BEF & allow BEF to collect the email addresses
+* **Download** - Press Kit Section, allowing anyone interested to get access to more in-depth material.
 
 To Validtae the need for the features, I carried out a user story process. The results are from **self input** (as a user) and  **BEF requirements**.
 
