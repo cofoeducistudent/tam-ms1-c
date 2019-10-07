@@ -276,8 +276,25 @@ I shared this with BEF and after further discussion slightly improved it.
 ---
 ## **(S)keleton**
 
+The flow of the ***UI*** is as such to give a good user experience ***UX***
+Using ***Mobile-First** as a design approach, the user is met with two different navigation bars dependent on their viewing device.
+
+![Mobile-screen](assets/support/mobile-screen.jpg)
+
+For mobile devices we use the ubiqitous Burger navbar. This conceals the links untill clicked*
+
+* A point of note was that I had an issue with this approach implemented on Bootstrap4. By default you can click and expand the sublinks. However, this did not close automatically, leading to a poor user experience. I did not find a solution in bootstraps library directly, but had to resort to search the web.
+
+* I found that this was a rather well known issue, and I had to utilize a javscript code snippet to hide the selection after it was pressed.This was essential on a modile device, becuase if left as was, the menu links obscured the screen real-estate (Please see acknowledgements).
+
+For wider screen devices tablet & desktop. The navbar is a horizontal span.
+![Mobile-screen](assets/support/desktop-screen.jpg)
+
+* For the main/tablet/desktop navbar, I  chose to use CSS to turn the navbar transluscent to opaque slowly. I used the transition ability in CSS to achieve this. Thus giving iyt a ghostly supernatural feel.
 
 Activity Flow
+
+
 
 
 ## **(S)urface**
@@ -298,7 +315,7 @@ BEF wished a clean looking site.
 
 * As for more  aesthetics, I chose to implement rounded corners on most of the images. I felt this was somehow warmer and friendly, rather than sharp edgeds
 
-* I also implement the "Exo" font-family using **Googlefonts** as that was soft and does not convey horror per-sae.
+* I also implemented the "Exo" font-family using **Googlefonts** CDN as that was soft and does not convey horror per-sae.
 
 * Finally, I utilized the **Fontawsome** CDN linking to place social media icons in suitable places. Again I changed the colors with CSS, on link and hover.
 
@@ -428,14 +445,17 @@ Using HTML validator
 |Tool|Version|Code Validator|Source|
 |:---:|:---:|:---:|:---:|
 |HTML online Validator|n/a|Code Validation - To Validate the HTML code|[https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input)|
+
 ### **CSS**
 Using CSS Validator
+
 |Tool|Version| Code Validator|Source|
-|---|---|---|---|
+|:---:|:---:|:---:|:---:|
 |CSS online Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/)|#validate_by_input|
 
 ### **CHROME TOOLS**
-Chrome Tools was used to test the mobile forst responsivenes and breakpoints
+Chrome Tools was used to test the mobile forst responsivenes and media breakpoints
+
 ![Chrometools](assets/support/test-chrometools-1.png)
 
 ## **Operation Test**
@@ -459,8 +479,11 @@ To clone the repository (repo) simply
 1. Install [Git 2.23.0](#technologies-used) on your local drive, and ensure it is working.
 2. From my git-hub, copy the clone link found by clicking on the button below
 ![how to clone repo](assets/support/how-to-clone-repo.png)
-3. Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows Run-CMD
-4. Navigate to where you wish to create the repo
+
+![Copy repo-link](assets/support/repo-link.png)
+
+3. Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows get to the CMD window (command-promt)
+4. Navigate to where in the folder structure you wish to create the repo
 5. Type the following command **"git clone [paste the link]"**  ; where link should be on your clipboard from clicking and copying the link in git-hub button in the image
 
 **Note: if you wish to see the site in operation. You will need access to a webserver**.
@@ -500,17 +523,9 @@ Note: The support folder holds the images to support this README.md. It is not r
 
 
 * Thanks to Learnish on youtube for code snippet, and instructions how to implement
-[Ato collapse Nav bar](https://www.youtube.com/watch?v=5y6NFy5M9z8)
-<!--------------- Paste it before </body> tag ------------->
+[Auto-collapse Nav-bar](https://www.youtube.com/watch?v=5y6NFy5M9z8)
 
-<script type="text/javascript">    
-           $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-      </script>
-
-<!---- Copy and paste it on anchor tag class=”js-scroll-trigger” as show in video ---->
-
+![Auto-collapse-code](assets/support/auto-collapse-code.jpg)
 ---
 ## **Media**
 
