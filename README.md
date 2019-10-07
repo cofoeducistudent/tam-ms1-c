@@ -292,8 +292,10 @@ For wider screen devices tablet & desktop. The navbar is a horizontal span.
 
 * For the main/tablet/desktop navbar, I  chose to use CSS to turn the navbar transluscent to opaque slowly. I used the transition ability in CSS to achieve this. Thus giving iyt a ghostly supernatural feel.
 
-Activity Flow
 
+### Skeleton Activity Flow
+
+![Skeleton-structure](assets/support/skel-structure.jpg)
 
 
 
@@ -506,6 +508,15 @@ You should end up with two files (**index.html** & **submission.html**) in the \
 
 Note: The support folder holds the images to support this README.md. It is not required on a live site. Therefore it can be deleted on a production deployment
 
+### **CDN vs Local Stored Data**
+
+I built the site using CDN links. It is possible and may be prefered by some to download the source files for Bootstrap etc and internalise them within their file hosting service, however my thoughts were as follows.
+
+* **PROS:** You gain resiliance by having all that you need to make your site function on your own servers
+
+* **CONS:** Your users will pull all the supporting reference files from your location.
+* **CONS:** Any internal codefixes can be controled from the code distributers directly.Changes however may require a version number change. In that situation all you do is change the reflink numbers.
+* Note The **Content-Delivery-Network(CDN)** is there for a reason. The data is stored in various centers globaly. Therefore someone in the USA for example, accessing the site will benefit from the support files been pulled from a more regional location, and not accross the otherside of the world perhaps, where the original was stored. This approach is what is used in cloud technology to offer greater resilliance and performance.
 
 ---
 
