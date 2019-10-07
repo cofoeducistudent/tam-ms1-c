@@ -460,15 +460,18 @@ Chrome Tools was used to test the mobile forst responsivenes and media breakpoin
 
 ![Chrometools](assets/support/test-chrometools-1.png)
 
-## **Operation Test**
+## **Operational Test**
+
+Actually clicking the buttons on **Mobile/Desktop/Mini-navbar**
+
 |No|TestObjective|Before Image |After Image|Test-Status|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|1 |Click - Home Button|[image]()|[image]()|-|
-|2 |Click - About Button|[image]()|[image]()|-|
-|3 |Click - Trailer Button|[image]()|[image]()|-|
-|4 |Click - Production Button|[image]()|[image]()|-|
-|5 |Click - Contact Button|[image]()|[image]()|-|
-|6 |Click - Download Button|[image]()|[image]()|-|
+|1 |Click - Home Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-homepage.jpg)|Passed|
+|2 |Click - About Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-about-section.jpg)|Passed|
+|3 |Click - Trailer Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-trailers-section.png)|Passed|
+|4 |Click - Production Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-production-section.jpg)|Passed|
+|5 |Click - Contact Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-contact-section.png)|Passed|
+|6 |Click - Download Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-downloads-section.png)|Passed|
 ---
 
 # **DEPLOYMENT**
