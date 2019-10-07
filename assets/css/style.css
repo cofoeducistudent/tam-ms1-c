@@ -21,6 +21,8 @@ body {
     z-index: 1000;
     top: 0px;
     left: 0px;
+
+    
     opacity: .10;
     -webkit-transition-property: all;
     -o-transition-property: all;
@@ -32,6 +34,7 @@ body {
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     padding-top: 10px;
+    height:50px;
 }
 /* Reveal Menu on Hover */
 .custom-navbar-standard:hover {
@@ -46,6 +49,7 @@ body {
     transition-timing-function: ease-in;
     opacity: 100;
     padding-top: 30px;
+    height: 85px;
 }
 /* Burger Navbar */
 /* Hide Burger Navbar by making making it translucent */
