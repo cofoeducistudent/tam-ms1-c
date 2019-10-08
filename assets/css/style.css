@@ -272,11 +272,14 @@ ul li a:hover {
     height: auto;
     align-content: center;
 }
-
+/* Form Alignment */
 .main-content input {
-
     width:100%;
-
-
+}
+.radio-buttons{
+    list-style: none;
+}
+.radio-buttons li {
+    display: inline-block;
 }
  

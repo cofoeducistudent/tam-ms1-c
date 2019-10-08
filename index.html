@@ -544,38 +544,37 @@
 
 
                             <!-- Radio button selctions -->
-                            <div>
-                                <label for="male">Male</label>
-                                <input type="radio" name="gender" value="male" id="male" required>
 
-                                <label for="female">Female</label>
-                                <input type="radio" name="gender" value="female" id="female" required>
 
-                                <label for="other">Other</label>
-                                <input type="radio" name="gender" value="other" id="other" required>
-                            </div>
+                            <ul class="radio-buttons">
+
+                                <li><label for="male">Male</label>
+                                    <input type="radio" name="gender" value="male" id="male" required></li>
+
+                                <li><label for="female">Female</label>
+                                    <input type="radio" name="gender" value="female" id="female" required></li>
+
+                                <li><label for="other">Other</label>
+                                    <input type="radio" name="gender" value="other" id="other" required></li>
+
+
+                            </ul>
+
+
 
 
                             <!-- Text inputs -->
 
-                            <label for="fname">
-                                First Name
-                            </label>
+                            <label for="fname">First Name</label>
                             <input class="ipb-width" type="text" name="fname" id="fname" required>
 
-                            <label for="lname" aria-label="last name">
-                                Last Name
-                            </label>
+                            <label for="lname" aria-label="last name">Last Name</label>
                             <input class="ipb-width" type="text" name="lname" id="lname" required>
 
-                            <label for="email" aria-label="email">
-                                Email
-                            </label>
+                            <label for="email" aria-label="email">Email</label>
                             <input class="ipb-width" type="email" name="email" id="email" required>
 
-                            <label for="message" aria-label="message">
-                                Message
-                            </label>
+                            <label for="message" aria-label="message">Message</label>
 
 
                             <div class="continer-fluid">
@@ -583,15 +582,14 @@
                             </div>
 
 
-
-                            <label for="consent" aria-label="consent checkbox">
-                                <span class="stand-out-this">I consent to my data being used by Black
-                                    Eagle Films for promotional and marketing purposes.
-                                </span>
-                            </label>
-
-                            <input type="checkbox" name="consent" value="checked" id="consent" required>
-
+                           
+                                <label for="consent" aria-label="consent checkbox">
+                                    <span class="stand-out-this">I consent to my data being used by Black
+                                        Eagle Films for promotional and marketing purposes.
+                                    </span>
+                                </label>
+                                <input type="checkbox" name="consent" value="checked" id="consent" required>
+                            
 
                             <!-- Form Submit button -->
                             <button type="submit" class="btn btn-success">Submit</button>
