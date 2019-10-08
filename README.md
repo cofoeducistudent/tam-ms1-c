@@ -448,12 +448,12 @@ Actually clicking the buttons on **Mobile/Desktop/Mini-navbar**
 
 |No|TestObjective|Before Image |After Image|Test-Status|
 |:---:|:---:|:---:|:---:|:---:|
-|1 |Click - Home Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-homepage.jpg)|Passed|
-|2 |Click - About Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-about-section.jpg)|Passed|
-|3 |Click - Trailer Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-trailers-section.png)|Passed|
-|4 |Click - Production Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-production-section.jpg)|Passed|
-|5 |Click - Contact Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-contact-section.png)|Passed|
-|6 |Click - Download Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-downloads-section.png)|Passed|
+|1 |Click - **Home** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-homepage.jpg)|Passed|
+|2 |Click - **About** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-about-section.jpg)|Passed|
+|3 |Click - **Trailer** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-trailers-section.png)|Passed|
+|4 |Click - **Production** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-production-section.jpg)|Passed|
+|5 |Click - **Contact** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-contact-section.png)|Passed|
+|6 |Click - **Download** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-downloads-section.png)|Passed|
 ---
 
 # **DEPLOYMENT**
@@ -478,6 +478,12 @@ To clone the repository (repo) simply
 * An alternative **XAMPP** exists for windows
 
 You would clone the git repository
+![Git clone <link>](assets/images/cloning.jpeg)
+
+Results of a typical  windows git repository clone operation
+
+![Directory strcture (windows version) ](assets/images/directory-contents.jpeg)
+
 
 ## **Production Hosting**
 **The file structure is standard tree flow**.
@@ -491,7 +497,9 @@ The file structure references are relative. Therefore no changes should be neede
 
 You should end up with two files (**index.html** & **submission.html**) in the \public directory with the **ASSETS** folder.
 
-Note: The support folder holds the images to support this README.md. It is not required on a live site. Therefore it can be deleted on a production deployment
+Note: The support folder holds the images to support this README.md. It is not required on a live site. Therefore it can be deleted on a production deployment. Also delete the .gitignore.
+
+### **WARNING**:Curently git-hub will only allow static sites to operate in their repositories. This means that form actions are blocked, and you will receive an error when using the contacts page. However if you clone the repo to your local machine running a webserver such as MAMP or XAMMP etc, or your own hosting plan, you will be able to see the validation form after submitting.
 
 ### **CDN vs Local Stored Data**
 
