@@ -254,6 +254,13 @@ The **ROOT** folder will hold all the other folders -
 |-|CSS|style.css|various images for website|various images for README.md|
 |ASSETS|-|-|-|-|
 
+## **Version Control**
+
+* For version control, I use **Git**.
+* I use **Github** to store the repository.
+Please find further deatils in technology used section
+
+
 ## Wireframes
 
 To get a basic idea of what the site will look like on completion, I created a wireframe to share with BEF.
