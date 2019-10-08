@@ -80,7 +80,7 @@ body {
     -webkit-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
-    opacity: 100;
+    opacity: .90;
     /* padding-top: 30px; */
     max-height:260px;
 }
