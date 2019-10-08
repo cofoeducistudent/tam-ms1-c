@@ -308,11 +308,11 @@ BEF wished a clean looking site.
 
 * As for more  aesthetics, I chose to implement rounded corners on most of the images. I felt this was somehow warmer and friendly, rather than sharp-edged
 
-* I also implemented the "Exo" font-family using **Googlefonts** CDN as that was soft and does not convey horror per-sae.
+* I also implemented the "Exo" font-family using **Google fonts** CDN as that was soft and does not convey horror.
 
-* Finally, I utilized the **Fontawsome** CDN linking to place social media icons in suitable places. Again I changed the colors with CSS, on link and hover.
+* Finally, I utilized the **Fontawsome** CDN linking to place social media icons in suitable places. Again I changed the colours with CSS, on the link and hover.
 
-* The images placed on the site were compressed to reduce size and improve performace loading time. I used the **TinyJpg** online tool to achive this, saving 20-80% in size frequently.
+* The images placed on the site were compressed to reduce the size and improve performance loading time. I used the **TinyJpg** online tool to achieve this, saving 20-80% in size frequently.
 
 ![Fontawsome Icons](assets/support/fontawsome-icons.jpg)
 
@@ -327,7 +327,7 @@ For social-media icons, I opted to show
 
 # **FEATURES**
 ---
-As previously stated, the website will contain a few features. Some have been requested by BEF **(Explicitly)** and others will be implemented by the developer, because it makes sense for acheiving the overall solution **(Implicit)**
+As previously stated, the website will contain a few features. Some have been requested by BEF **(Explicitly)** and others will be implemented by the developer because it makes sense for achieving the overall solution **(Implicit)**
 
 |Item No.|Scope Item|In/Out|Type|Objective|
 |:---:|:---:|:---:|:---:|:---|
@@ -335,16 +335,16 @@ As previously stated, the website will contain a few features. Some have been re
 |2.|Trailer section|In Scope|Explicit|Allows the user to jump to the Trailer section of the site and watch a movie trailer|
 |3.|Production section|In Scope|Explicit|Allows the user to jump to the Production section of the site and see behind the scenes elements related to the film|
 |4.|Contact section|In Scope|Explicit|Allows the user to jump to the section of the site that allows the user to submit their contact details and make enquiries|
-|5.|Download section|In Scope|Explicit|Allows the user to download a "Press-Kit" and any other digital artifacts BEF wishes to include|
+|5.|Download section|In Scope|Explicit|Allows the user to download a "Press-Kit" and any other digital artefacts BEF wishes to include|
 |6.|Navigation Bar|In Scope|Implicit|Allows the user to navigate to all the other sections from the top of the page. Note: The min nav bar at the bottom of the page replicates this also|
 |7.|Legal Section|Inscope|Implicit|Shows legal message wished by BEF to the public|
-|8.|Message Users|Out of Scope|Explict| **THIS IS OUT OF SCOPE**|
+|8.|Message Users|Out of Scope|Explicit| **THIS IS OUT OF SCOPE**|
 
 ---
 
 # **EXISTING FEATURES**
 ---
-Most of the features requested by BEF for the website are callouts , and have no real specific action. The UX is simply the presentation of the content.
+Most of the features requested by BEF for the website are callouts and have no real specific action. The UX is simply the presentation of the content.
 The UI is either to scroll or the use of the navigation bar.
 
 ## **Feature - 6 - ( Navbar )**
@@ -361,12 +361,12 @@ I decided on this approach so as not to obscure the screen for the user, especia
 
 ![Main Navigation bar](assets/support/contact-form.jpg)
 
-For the  Contact-form feature, I chose a simple unclutterd look. With lots of space.
+For the  Contact-form feature, I chose a simple uncluttered look. With lots of space.
 I also ensured that the fields were of the **'Required'** type. This will ensure that
 1. Web-bots will find it difficult to post
 2. Users must fill out details especially email to post
-3. The owner will atleast get the name and email address of posters, thus satisfying their requirement
-4. Users must also click a check box to agree with sending the data, thus complying with data-protection laws. Although BEF have not provided the details of this, I expect it will not be any great hardship to drop in a link to reference it. My thinking is BEF may have other websites and linking to a central location will ensure that their legal team only need to update a specific location at will.
+3. The owner will at least get the name and email address of posters, thus satisfying their requirement
+4. Users must also click a check box to agree with sending the data, thus complying with data-protection laws. Although BEF has not provided the details of this, I expect it will not be any great hardship to drop in a link to reference it. My thinking is BEF may have other websites and link to a central location will ensure that their legal team only need to update a specific location at will.
 
 These are the two most important features required for the site.
 
@@ -378,9 +378,9 @@ These are the two most important features required for the site.
 
 1. Site integration of the feature
 2. Just collate the data and contact details on a backend system. Harvest the data and import into a Common Off the shelf (COTS) web mailer system.
-3. Create an auto responder backend system to mail users.
+3. Create an autoresponder  backend system to mail users.
 
-### **However as stated the various approaches will need further discussion and an understanding of the tripple constraint priority of time/cost/quality**
+### **However, as stated the various approaches will need further discussion and an understanding of the triple constraint priority of time/cost/quality**
 ---
 
 # **TECHNOLOGIES USED**
@@ -391,7 +391,7 @@ To create the website I used various tools and technologies. I have listed these
 |:---:|:---:|:---:|:---:|
 |HTML|5| Markup Language used to create the webpage in accord with the internet technologies|The latest HTML standard integrated within many web-browsers|
 |CSS|3|To style the website|The latest CSS standard Integrated within HTML|-|
-|Bootstrap4|4.3.1 *|Toolikt to help develope the website|[https://getbootstrap.com](https://getbootstrap.com)|
+|Bootstrap4|4.3.1 *|Toolkit  to help develop the website|[https://getbootstrap.com](https://getbootstrap.com)|
 |jquery|3.3.1|Integrated as support to Bootstrap file via CDN|[https://code.jquery.com/jquery-3.3.1.slim.min.js](https://code.jquery.com/jquery-3.3.1.slim.min.js)
 |popper|1.14.7|Integrated as support to Bootstrap file via CDN|[https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.)
 |Javascript|4.3.1|Integrated as support to Bootstrap file via CDN|[https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js)
@@ -418,7 +418,7 @@ To create the website I used various tools and technologies. I have listed these
 
 # **TESTING**
 
-During the building of this website I carried out various test. Frequently using the **Chrome Developer Tools**
+During the building of this website, I carried out testing. Frequently using the **Chrome Developer Tools**
 I also used the **HTML & CSS checker from W3Schools**. Following are areas tested.
 
 Developement Testing
@@ -469,11 +469,11 @@ To clone the repository (repo) simply
 
 ![Copy repo-link](assets/support/repo-link.png)
 
-3. Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows get to the CMD window (command-promt)
+3. Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows get to the CMD window (command prompt)
 4. Navigate to where in the folder structure you wish to create the repo
-5. Type the following command **"git clone [paste the link]"**  ; where link should be on your clipboard from clicking and copying the link in git-hub button in the image
+5. Type the following command **"git clone [paste the link]"** ; where the link should be on your clipboard from clicking and copying the link in git-hub button in the image
 
-**Note: if you wish to see the site in operation. You will need access to a webserver**.
+**Note: if you wish to see the site in operation. You will need access to a web server**.
 * I used **MAMP** [MAMP](#technologies-used) on Mac to develop the site
 * An alternative **XAMPP** exists for windows
 
@@ -495,13 +495,13 @@ Note: The support folder holds the images to support this README.md. It is not r
 
 ### **CDN vs Local Stored Data**
 
-I built the site using CDN links. It is possible and may be prefered by some to download the source files for Bootstrap etc and internalise them within their file hosting service, however my thoughts were as follows.
+I built the site using CDN links. It is possible and may be prefered by some to download the source files for Bootstrap etc and internalise them within their file hosting service, however, my thoughts were as follows.
 
-* **PROS:** You gain resiliance by having all that you need to make your site function on your own servers
+* **PROS:** You gain resilience by having all that you need to make your site function on your servers
 
 * **CONS:** Your users will pull all the supporting reference files from your location.
-* **CONS:** Any internal codefixes can be controled from the code distributers directly.Changes however may require a version number change. In that situation all you do is change the reflink numbers.
-* Note The **Content-Delivery-Network(CDN)** is there for a reason. The data is stored in various centers globaly. Therefore someone in the USA for example, accessing the site will benefit from the support files been pulled from a more regional location, and not accross the otherside of the world perhaps, where the original was stored. This approach is what is used in cloud technology to offer greater resilliance and performance.
+* **CONS:** Any internal code fixes can be controlled  from the code distributors directly.Changes, however, may require a version number change. In that situation, all you do is change the ref link  numbers.
+* Note The **Content-Delivery-Network(CDN)** is there for a reason. The data is stored in various centres  globally. Therefore someone in the USA for example, accessing the site will benefit from the support files been pulled from a more regional location, and not accross the other side of the world perhaps, where the original was stored. This approach is what is used in cloud technology to offer greater resilience and performance.
 
 ---
 
@@ -518,14 +518,14 @@ I built the site using CDN links. It is possible and may be prefered by some to 
 [Filling navbar total width - stack-overflow](https://stackoverflow.com/questions/41622790/bootstrap-4-how-to-have-a-full-width-navbar-with-the-content-in-a-container-li)
 
 
-* Thanks to Learnish on youtube for code snippet, and instructions how to implement
+* Thanks to Learnish on youtube for code snippet, and instructions on how to implement
 [Auto-collapse Nav-bar](https://www.youtube.com/watch?v=5y6NFy5M9z8)
 
 ![Auto-collapse-code](assets/support/auto-collapse-code.jpg)
 ---
 ## **Media**
 
-* The photos and graphic images used on this site are credited to Black Eagle Films (BEF) of which I was owner.
+* The photos and graphic images used on this site are credited to Black Eagle Films (BEF) of which I was the owner.
 * The attachment was a film based on a screenplay I wrote, directed & produced a few years ago.
 * I created the **download - press-kit pdf** and the posters images a few years ago for promotion of the film.
 * Screenshots were captured from the HD version of the film using **Mac version of Monosnap**.
@@ -535,13 +535,13 @@ I built the site using CDN links. It is possible and may be prefered by some to 
 
 * I would like to acknowledge all the actors and crew that helped me make the attachment, especially
 
-* **Actors** : Duncan Malcolm / Leah Cooper / Tony Honickberg / Michelle Coverly
-* **Crew** : Eno Enofik - AD / Felice Goea - DP / Julia Fecchio - Editor
+* **Actors**: Duncan Malcolm / Leah Cooper / Tony Honickberg / Michelle Coverly
+* **Crew**: Eno Enofik - AD / Felice Goea - DP / Julia Fecchio - Editor
 * I would like to acklowledge a few people from code-institute that helped and offered advice when I struggled to make this site.
 * **Anthony O'brian / Simen Daehlin / Mentor - Narinder Singh**
 ---
 Disclaimer:
 
-* ### **The characters and scenarios depicted in the film  are ficticious and created by me. Therefore please note that there is no 'Father Malachi" to acknowledge**.
-* ### **Black Eagle Films(BEF) was a company I created for the purposes of the film production 2014, It is now dissolved. I am the sole owner of all the materials produced by the company**.
+* ### **The characters and scenarios depicted in the film  are fictitious and created by me. Therefore please note that there is no 'Father Malachi" to acknowledge**.
+* ### **Black Eagle Films(BEF) was a company I created for the film production 2013-2014, It is now dissolved. I am the sole owner of all the materials produced by the company**.
 **END**
