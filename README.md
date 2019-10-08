@@ -459,6 +459,16 @@ Actually clicking the buttons on **Mobile/Desktop/Mini-navbar**
 |6 |Click - **Download** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-downloads-section.png)|Passed|
 ---
 
+**Form Testing**
+
+The contact form was tested and the **input** and **radio-button** forced validation was operating correctly. However on submission of the form git-hub did not seem to like passing the form action statement. 
+[stack overflow link ](https://stackoverflow.com/questions/49373173/issue-with-contact-form-html-and-php-405-not-allowed)
+
+It seems a well known issue.
+
+However, if you clone the repository and run the site on a webserver such as MAMP/XAMP etc launching **index.html**, it functions fine. Researching on the net they say that Git-hub has disabled form passing, so things like php won't work either.
+
+
 # **DEPLOYMENT**
 ---
 
