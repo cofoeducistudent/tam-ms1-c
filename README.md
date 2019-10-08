@@ -10,15 +10,15 @@
 
 [**1. UX**](#ux )
 
-[_a.Stratergy_](#stratergy)
+[_a. Stratergy_](#stratergy)
 
-[_b.Scope_](#scope)
+[_b. Scope_](#scope)
 
-[_c.Structure_](#structure)
+[_c. Structure_](#structure)
 
-[_d.Skeleton_](#skeleton)
+[_d. Skeleton_](#skeleton)
 
-[_e.Surface_](#surface)
+[_e. Surface_](#surface)
 
 ---
 [**2. Features**](#features)

@@ -45,7 +45,7 @@ body {
     -webkit-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
-    opacity: 100;
+    opacity: .90;
     padding-top: 60px;
     height: 100px;
 }
