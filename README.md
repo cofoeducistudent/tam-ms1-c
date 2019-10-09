@@ -150,7 +150,7 @@ Following clarification of BEF's requirements for their website, I have decided 
 
 * I also highlighted the fact that the film medium on release may be ultimately consumed on a smartphone. For many people, this is a norm, especially if the film is placed on a streaming service such as **Netflix** or **Amazon Prime**.
 
-* I shall also implement a navigation bar, because although we will be employing **mobile-first design principles**. We do envisage some members of the audience having access to desktop-computers and television also. The latter usually does not offer touch screen capabilities in any significant volume.
+* I shall also implement a Burger navigation-bar (for mobile)  and a full standard Navigation-bar (for tablet & desktop), because although we will be employing **mobile-first design principles**. We do envisage some members of the audience having access to desktop-computers and television also. The latter usually does not offer touch screen capabilities in any significant volume. Also I shall implement a simplified navigation list at the bottom of the scroll page for mobile, but hide it for tablet and desktop.
 
 * I have also decided to go with a plain light background in contrast to my initial thoughts. This will allow for the clean fresh look. BEF has been clear that the film is not to be confused with standard horror gore, therefore I will avoid any references to blood and guts imagery.
 
@@ -333,6 +333,7 @@ For social-media icons, I opted to show
 * Youtube
 * Linkedin
 
+* For a more tactile feel I made the icons slightly animate on a 'mouse-hover'. Although this won't be so noticable on mobile as there is no hover trigger is applicable.
 ---
 
 # **FEATURES**
@@ -566,7 +567,7 @@ I built the site using CDN links. It is possible and may be prefered by some to 
 * **Actors**: Duncan Malcolm / Leah Cooper / Tony Honickberg / Michelle Coverly
 * **Crew**: Eno Enofik - AD / Felice Goea - DP / Julia Fecchio - Editor
 * I would like to acklowledge a few people from code-institute that helped and offered advice when I struggled to make this site.
-* **Anthony O'brian / Simen Daehlin / Mentor - Narinder Singh**
+* **Anthony O'brian / Simen Daehlin / Mentor - Narender Singh**
 ---
 Disclaimer:
 
