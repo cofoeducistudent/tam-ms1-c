@@ -32,7 +32,7 @@ body {
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     padding-top: 10px;
-    height:50px;
+    height: 50px;
 }
 /* Reveal Menu on Hover */
 .custom-navbar-standard:hover {
@@ -82,20 +82,20 @@ body {
     transition-timing-function: ease-in;
     opacity: .90;
     /* padding-top: 30px; */
-    max-height:260px;
+    max-height: 260px;
 }
 /* Remove styles prefix dots */
-.custom-navbar-burger ul li{
+.custom-navbar-burger ul li {
     list-style: none;
 }
 /* Burger Nav-items colorization */
 ul li a {
-color :#F5F5F5;
-/* Burger Nav-items colorization on hover */
+    color: #F5F5F5;
+    /* Burger Nav-items colorization on hover */
 }
 ul li a:hover {
-    color :#C3CDD4;
-    }
+    color: #C3CDD4;
+}
 /* give extra head space to nav items */
 .nav-item {
     padding-top: 10px;
@@ -193,7 +193,7 @@ ul li a:hover {
 .bottom-bar h1 {
     font-size: 1rem;
 }
-.bottom-bar  li  {
+.bottom-bar li {
     list-style: none;
 }
 .bottom-bar h1 ul li a {
@@ -235,7 +235,7 @@ ul li a:hover {
     -o-transition-duration: .5s;
     transition-duration: .5s;
     font-size: 2.25em;
-    padding-left:5px;
+    padding-left: 5px;
 }
 /* class for some text to stand out */
 .stand-out-this {
@@ -251,7 +251,7 @@ ul li a:hover {
 }
 /* Form  name input box width */
 .ipb-width {
-    width: 75%;
+    width: 50%;
     border-radius: 5px;
     border: solid 1px;
     color: var(--form-boxes-border-color);
@@ -261,31 +261,34 @@ ul li a:hover {
     width: 100%;
     height: auto;
 }
-/* Press kit download poster formatting */
+ 
+/* Press-kit item for download */
 .press-kit-format {
-    width: 30%;
-    height: auto;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
+    width: 20%;
+    transform: rotate(60deg);
+    transition-property: all;
     -webkit-box-shadow: 4px 4px var(--form-boxes-border-color);
-            box-shadow: 4px 4px var(--form-boxes-border-color);
+    box-shadow: 4px 4px var(--form-boxes-border-color);
+    margin-left: 33%;
+    margin-bottom: 20px;
 }
+/* Press-kit item for download */
 .press-kit-format:hover {
-    width: 50%;
-    height: auto;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    width: 30%;
+    transition-property: all;
+    transform: rotate(0deg);
+    transition-duration: .5s;
+    align-content: center;
+    -webkit-box-shadow: 4px 4px var(--form-boxes-border-color);
+    box-shadow: 4px 4px var(--form-boxes-border-color);
 }
 /* Form Alignment */
 .main-content input {
-    width:100%;
+    width: 100%;
 }
-.radio-buttons{
+.radio-buttons {
     list-style: none;
 }
 .radio-buttons li {
     display: inline-block;
 }
- 
