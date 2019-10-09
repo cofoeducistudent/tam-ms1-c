@@ -126,7 +126,7 @@ ul li a:hover {
 /* Spacer Box -additional info */
 .spacer {
     width: 100%;
-    min-height: 100px;
+    min-height: 150px;
     /* background-color: #d4cdcd; */
     background-color: var(--spacer-border-color);
     margin-top: 10px;
@@ -135,14 +135,13 @@ ul li a:hover {
     padding: 10px;
     overflow: hidden;
 }
-/* Site row content spacer */
 .spacer h1 {
     font-size: 1rem;
 }
 /* Main Content box */
 .main-content {
     width: 100%;
-    min-height: 100px;
+    min-height: 150px;
     /* background-color: #d4cdcd; */
     background-color: var(--main-content-border-color);
     margin-top: 10px;
@@ -261,16 +260,16 @@ ul li a:hover {
     width: 100%;
     height: auto;
 }
- 
 /* Press-kit item for download */
 .press-kit-format {
-    width: 20%;
+    width: 30%;
     transform: rotate(60deg);
     transition-property: all;
     -webkit-box-shadow: 4px 4px var(--form-boxes-border-color);
     box-shadow: 4px 4px var(--form-boxes-border-color);
     margin-left: 33%;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+    min-height: 1vh;
 }
 /* Press-kit item for download */
 .press-kit-format:hover {
@@ -281,6 +280,7 @@ ul li a:hover {
     align-content: center;
     -webkit-box-shadow: 4px 4px var(--form-boxes-border-color);
     box-shadow: 4px 4px var(--form-boxes-border-color);
+    /* min-height: 250px; */
 }
 /* Form Alignment */
 .main-content input {
