@@ -1,15 +1,21 @@
-## repo = tam-ms1-c
-# **The Attachment-Movie**
-## The code-institute (**Milestone-1** project)
+
+# **THE ATTACHMENT - MOVIE SITE**
+
+# [**Repository**:https://github.com/cofoeducistudent/tam-ms1-c](https://github.com/cofoeducistudent/tam-ms1-c)
+
+# [**Deployment**:https://cofoeducistudent.github.io/tam-ms1-c/](https://cofoeducistudent.github.io/tam-ms1-c/)
+
+## The code-institute (Milestone-1 project)
 
 ## ***Site Link***
+
 [https://cofoeducistudent.github.io/tam-ms1-c/](https://cofoeducistudent.github.io/tam-ms1-c/)
 
 ## Coder: **Clement Ofoedu**
 
  ---
 
- # **Index**
+# **Index**
 
 [**1. UX**](#ux )
 
@@ -49,9 +55,10 @@
  ---
 
 # **UX**
+
 ---
 
-###  **PROJECT MANDATE**
+## **PROJECT MANDATE**
 
 ["**The Attachment**"](https://cofoeducistudent.github.io/tam-ms1-c/)
 
@@ -61,7 +68,8 @@ An independent film production company **Black Eagle films (BEF)** are in the pr
 
 ## **(S)tratergy**
 
-#### **EXTERNAL USER GOAL**
+### **EXTERNAL USER GOAL**
+
 Black Eagle films anticipate the site users or customers are movie-goers and some are horror film fans who appreciate a low-budget horror. Been in business for some time BEF has an idea about their market.
 
 * Typically, users wish to find out about upcoming films, see images from the movie, and of course, a trailer  to whet their appetite.
@@ -71,6 +79,7 @@ Black Eagle films anticipate the site users or customers are movie-goers and som
 * If interested,  users like the option to contact the promoters if they have any questions, such as what the certification rating is expected to be when the film is released and where it will be shown.
 
 #### **SITE OWNER GOAL**
+
 From Black Eagle Film’s perspective, they wish the site to be the first step in their promotion strategy for the film, providing typically expected information to their customers.
 
 They wish the site to reflect the nature of the film and **not pander to 'gore-slasher' type materials**.
@@ -80,24 +89,29 @@ They wish to capture some basic details of their potential customers, by giving 
 They wish this information to be used in future promotion or marketing endeavours.
 
 Therefore, Black Eagle Films have asked for the site to:
-1.	Have a nice clean fresh and simple look with a colour scheme that fits the material. They will supply images.
-2.	They wish to show picture stills and/or  promotional material for the film to entice the audience.
-3.	They also wish to show a movie trailer to help entice the audience, whetting their appetite.
-4.  Provide an ability to offer the user more off-line information (Like a press-kit)
-5.	Finally, they wish to collect basic contact details from users for future promotional and marketing endeavours.
+
+1. Have a nice clean fresh and simple look with a colour scheme that fits the material. They will supply images.
+2. They wish to show picture stills and/or  promotional material for the film to entice the audience.
+3. They also wish to show a movie trailer to help entice the audience, whetting their appetite.
+4. Provide an ability to offer the user more off-line information (Like a press-kit)
+5. Finally, they wish to collect basic contact details from users for future promotional and marketing endeavours.
 
 #### Advanced 'potential' features
+
 **Black Eagle Films have indicated that in the future, there is a chance that they would wish the website to be capable of sending messages back to their fans utilising the contact details gathered. However, they have agreed that this feature will fall under a different release**.
 
 ---
 
 #### **Project purpose**
+
 **The purpose of this project then is to create an initial web presence in the form of a basic static website for the soon to be released feature film 'THE ATTACHMENT' from Black Eagle Films.**
 
 **Black Eagle Films will be the owner of the site after deployment, and I will be referring to them in this document as BEF for simplicity.**.
 
 BEF have said that they require five things from the initial site release.
+
 * One is aesthetic.
+
 * The other four are features.
 * BEF also anticipate **( but not green-lit )** another feature for the future.
 
@@ -111,10 +125,16 @@ BEF have said that they require five things from the initial site release.
 |4|Movie Trailer|Feature|
 |5|Download Section|Feature|
 |6|Collect user data / Contact Section|Feature|
-|7|Post communication to users|Out-of-scope
+|7|Post communication to users|Out-of-scope|
 
-#### Feature (7) is Out of scope OOS, this is not green-lit and I suspect will be a mixture of back-end and front-end when delivered. Indeed, if a front end section is required it will be likely implemented using admin login credential to stop spam mailing. There is also the chance that BEF may decide to utilize a different system to do this as many other companies do. BEF also spoke about promo material. When further quizzed as to the nature of promo-material, BEF elaborated that they will provide a 'Press-kit pdf' file for download, as this is typically used by press and festivals etc. They will also provide the images and stills for the site. This pdf will be covered under the download feature.
+### **Feature (7) is Out of scope OOS, this is not green-lit and I suspect will be a mixture of back-end and front-end when delivered**
+
+### Indeed, if a front end section is required it will be likely implemented using admin login credential to stop spam mailing. There is also the chance that BEF may decide to utilize a different system to do this as many other companies do.
+
+### BEF also spoke about promo material. When further quizzed as to the nature of promo-material, BEF elaborated that they will provide a 'Press-kit pdf' file for download, as this is typically used by press and festivals etc. They will also provide the images and stills for the site. This pdf will be covered under the download feature.
+
 ---
+
 #### Approach
 
 The approach I have decided to use in completing the project and site design is the **five-stage User design** principle.
@@ -131,11 +151,11 @@ Besides, using the internet and web-technologies will allow them to capitalise o
 This is important because as an independent film producing company, they have limited funding.
 The features that have been decided on between Me(Webdesigner) & BEF are as follows:
 
-1.	Navigation bar
-2.	About section
-3.	Trailer section
-4.	Behind-the-scenes section
-5.	Contact form
+1. Navigation bar
+2. About section
+3. Trailer section
+4. Behind-the-scenes section
+5. Contact form
 6. Download Press-Kit Feature.
 
 To validate the necessity for these features I have provided user stories to support them.
@@ -165,6 +185,7 @@ Following clarification of BEF's requirements for their website, I have decided 
 This has clarified and convinced me that I should avoid anything contentious, and pursue a direction that won't upset people by misrepresenting this fact.
 
 #### **The sections on the single scroll page will be as follows:**
+
 * **About** -  To quickly inform the user in brief about the film.
 
 * **Trailer** - Show a trailer from the film I have placed this second in order, as people usually wish to get to the meat and potatoes quickly.
@@ -198,19 +219,25 @@ To Validate the need for the features, I carried out a **User Story** process. T
 
 ## **(S)cope**
 
-#### In summary
+### In summary
+
 1. I will build a single-scroll-page website
 2. I will have the following **Explicit features** ( Requested by the client).
+
 * About section
 * Trailer section
 * Production (behind the scenes section)
 * Contact section
 * Download section
+
 3. I will implement the following **Implicit features** decided by me as the web developer.
+
 * Navigation Bar
+
 * Legal section
 * Various picture stills provided by BEF distributed to populate the scroll section
-4. The website **sending communication feature is agreed out of scope**.
+
+4. **Sending user some communication "feature" is agreed out of scope**.
 
 |Scope Item|In/Out|Type|
 |---|:---:|:--- |
@@ -224,6 +251,7 @@ To Validate the need for the features, I carried out a **User Story** process. T
 |Message Users|Out of Scope|Explicit|
 
 ---
+
 ## **(S)tructure**
 
 Because BEF wants a basic static site for initial promotion. I will have  'content-data'  **integrated within the Html** file means I will not need to involve a database such as **MySql**  or other data retrieval methods to pull the data from. In effect...
@@ -236,9 +264,10 @@ Because BEF wants a basic static site for initial promotion. I will have  'conte
 
 **Bootstrap4** will be used as the framework to construct the site
 
-#### File Layout
+### File Layout
 
 ![File Layout Structure](assets/support/site-filestructure.png)
+
 ---
 
 I will implement the above file structure for the website
@@ -260,7 +289,6 @@ The **ROOT** folder will hold all the other folders -
 * I use **Github** to store the repository.
 Please find further details in technology used section
 
-
 ## Wireframes
 
 To get a basic idea of what the site will look like on completion, I created a wireframe to share with BEF.
@@ -268,6 +296,7 @@ To get a basic idea of what the site will look like on completion, I created a w
 ![The Attachment Site - Wireframe Mockup V1 ](assets/support/the-attachmentmovie-mock1.jpg)
 
 I shared this with BEF and after further discussion slightly improved it.
+
 * Changed header
 * Menubar content.
 * Changed naming from behind the scenes - production
@@ -278,6 +307,7 @@ I shared this with BEF and after further discussion slightly improved it.
 ![The Attachment Site - Wireframe Mockup V2 ](assets/support/the-attachmentmovie-mock2.jpg)
 
 ---
+
 ## **(S)keleton**
 
 The flow of the ***UI*** is as such to give a good user experience ***UX***
@@ -301,10 +331,12 @@ For wider screen devices tablet & desktop. The navbar is a horizontal span.
 ![Skeleton-structure](assets/support/skel-structure.jpg)
 
 ## **(S)urface**
+
 ---
 BEF wished a clean looking site.
 
 ### Colour themes
+
 * I decided to use light colours , as they also did not want to give the impression that the film was a dark and gory affair.
 * I chose white as the predominant background  colour.
 * I utilized an AI web tool "Colormind" to choose colours in class with a scanned-in photo segment of the film.
@@ -334,9 +366,11 @@ For social-media icons, I opted to show
 * Linkedin
 
 * For a more tactile feel I made the icons slightly animate on a 'mouse-hover'. Although this won't be so noticable on mobile as there is no hover trigger is applicable.
+
 ---
 
 # **FEATURES**
+
 ---
 As previously stated, the website will contain a few features. Some have been requested by BEF **(Explicitly)** and others will be implemented by the developer because it makes sense for achieving the overall solution **(Implicit)**
 
@@ -354,6 +388,7 @@ As previously stated, the website will contain a few features. Some have been re
 ---
 
 # **EXISTING FEATURES**
+
 ---
 Most of the features requested by BEF for the website are callouts and have no real specific action. The UX is simply the presentation of the content.
 The UI is either to scroll or the use of the navigation bar.
@@ -374,6 +409,7 @@ I decided on this approach so as not to obscure the screen for the user, especia
 
 For the  Contact-form feature, I chose a simple uncluttered look. With lots of space.
 I also ensured that the fields were of the **'Required'** type. This will ensure that
+
 1. Web-bots will find it difficult to post
 2. Users must fill out details especially email to post
 3. The owner will at least get the name and email address of posters, thus satisfying their requirement
@@ -388,10 +424,13 @@ These are the two most important features required for the site.
  The out of scope **(OOS)** feature discussed with **BEF**, will need further thought, if and when it is to be implemented. As it stands there are many ways to achieve the objective, some more expedient and cost-effective than others. My initial thoughts were...
 
 1. Site integration of the feature
+
 2. Just collate the data and contact details on a backend system. Harvest the data and import into a Common Off the shelf (COTS) web mailer system.
+
 3. Create an autoresponder  backend system to mail users.
 
-### **However, as stated the various approaches will need further discussion and an understanding of the triple constraint priority of time/cost/quality**
+* **However, as stated the various approaches will need further discussion and an understanding of the triple constraint priority of time/cost/quality**
+
 ---
 
 # **TECHNOLOGIES USED**
@@ -423,6 +462,7 @@ To create the website I used various tools and technologies. I have listed these
 |Fontawsome|5.11.2| Icon supply for website |[https://fontawesome.com/](https://fontawesome.com/)|
 |Googlefonts|n/a| provide access to font family ("Exo") |[https://fonts.google.com](https://fonts.google.com)|
 |MAMP|5.3| Webserver integrated package |[https://www.mamp.info/en/](https://www.mamp.info/en/)|
+
 * Note that **Bootstrap4.x uses Javascript/Jquery/popper** as part of its suite to function fully.
 
 ---
@@ -434,7 +474,8 @@ I also used the **HTML & CSS checker from W3Schools**. Following are areas teste
 
 Developement Testing
 
-### **HTML**
+## **HTML**
+
 Using HTML validator
 
 |Tool|Version|Code Validator|Source|
@@ -442,6 +483,7 @@ Using HTML validator
 |HTML online Validator|n/a|Code Validation - To Validate the HTML code|[https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input)|
 
 ### **CSS**
+
 Using CSS Validator
 
 |Tool|Version| Code Validator|Source|
@@ -449,6 +491,7 @@ Using CSS Validator
 |CSS online Validator|n/a|Code Validation - To Validate the CSS code|[https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/)|#validate_by_input|
 
 ### **CHROME TOOLS**
+
 Chrome Tools was used to test the mobile forst responsivenes and media breakpoints
 
 ![Chrometools](assets/support/test-chrometools-1.png)
@@ -465,49 +508,56 @@ Actually clicking the buttons on **Mobile/Desktop/Mini-navbar**
 |4 |Click - **Production** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-production-section.jpg)|Passed|
 |5 |Click - **Contact** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-contact-section.png)|Passed|
 |6 |Click - **Download** Button|![Homepage](assets/support/skel-homepage.jpg)|![Homepage](assets/support/skel-downloads-section.png)|Passed|
+
 ---
 
-**Form Testing**
+## **Form Testing**
 
-The contact form was tested and the **input** and **radio-button** forced validation was operating correctly. However on submission of the form git-hub did not seem to like passing the form action statement. 
-[stack overflow link ](https://stackoverflow.com/questions/49373173/issue-with-contact-form-html-and-php-405-not-allowed)
+The contact form was tested and the **input** and **radio-button** forced validation was operating correctly. However on submission of the form git-hub did not seem to like passing the form action statement.
+
+[stack overflow link](https://stackoverflow.com/questions/49373173/issue-with-contact-form-html-and-php-405-not-allowed)
 
 It seems a well known issue.
 
 However, if you clone the repository and run the site on a webserver such as MAMP/XAMP etc launching **index.html**, it functions fine. Researching on the net they say that Git-hub has disabled form passing, so things like php won't work either.
 
-
 # **DEPLOYMENT**
+
 ---
 
 ## **Clone the Git-hub site**
 
 To clone the repository (repo) simply
 
-1. Install [Git 2.23.0](#technologies-used) on your local drive, and ensure it is working.
-2. From my git-hub, copy the clone link found by clicking on the button below
+* Install [Git 2.23.0](#technologies-used) on your local drive, and ensure it is working.
+
+* From my git-hub, copy the clone link found by clicking on the button below
 ![how to clone repo](assets/support/how-to-clone-repo.png)
 
 ![Copy repo-link](assets/support/repo-link.png)
 
-3. Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows get to the CMD window (command prompt)
-4. Navigate to where in the folder structure you wish to create the repo
-5. Type the following command **"git clone [paste the link]"** ; where the link should be on your clipboard from clicking and copying the link in git-hub button in the image
+* Open the **terminal** window. if on Mac you can find it in your applications start-up. If windows get to the CMD window (command prompt)
+
+* Navigate to where in the folder structure you wish to create the repo
+
+* Type the following command **"git clone [paste the link]"** ; where the link should be on your clipboard from clicking and  copying the link in git-hub button in the image
 
 **Note: if you wish to see the site in operation. You will need access to a web server**.
+
 * I used **MAMP** [MAMP](#technologies-used) on Mac to develop the site
 * An alternative **XAMPP** exists for windows
 
 You would clone the git repository
-![Git clone <link>](assets/images/cloning.jpeg)
+![Git clone ..link](assets/images/cloning.jpeg)
 
 Results of a typical  windows git repository clone operation
 
 ![Directory strcture (windows version) ](assets/images/directory-contents.jpeg)
 
-
 ## **Production Hosting**
+
 **The file structure is standard tree flow**.
+
 1. Once your hosting site has been purchased and setup
 2. Copy the contents of the TAM-MS1-C into the root\public\ of the website host plan
 3. delete the **SUPPORT** folder
@@ -520,7 +570,7 @@ You should end up with two files (**index.html** & **submission.html**) in the \
 
 Note: The support folder holds the images to support this README.md. It is not required on a live site. Therefore it can be deleted on a production deployment. Also delete the .gitignore.
 
-### **WARNING**:Curently git-hub will only allow static sites to operate in their repositories. This means that form actions are blocked, and you will receive an error when using the contacts page. However if you clone the repo to your local machine running a webserver such as MAMP or XAMMP etc, or your own hosting plan, you will be able to see the validation form after submitting.
+## **WARNING**:Curently git-hub will only allow static sites to operate in their repositories. This means that form actions are blocked, and you will receive an error when using the contacts page. However if you clone the repo to your local machine running a webserver such as MAMP or XAMMP etc, or your own hosting plan, you will be able to see the validation form after submitting
 
 ### **CDN vs Local Stored Data**
 
@@ -538,7 +588,7 @@ I built the site using CDN links. It is possible and may be prefered by some to 
 
 ## **Content**
 
-**I created all the text content within the site**
+## **I created all the content within the site**
 
 * Some code was taken from the Bootstrap documentation ( Carousel )
 * Thanks for the code snippet by Phillip Feldmann which stopped text content escaping the Bootstrap columns.
@@ -546,18 +596,20 @@ I built the site using CDN links. It is possible and may be prefered by some to 
 * code from stack-overflow - **Using nav-fill w-100** with Bootstrap 4  - rav-ram
 [Filling navbar total width - stack-overflow](https://stackoverflow.com/questions/41622790/bootstrap-4-how-to-have-a-full-width-navbar-with-the-content-in-a-container-li)
 
-
 * Thanks to Learnish on youtube for code snippet, and instructions on how to implement
 [Auto-collapse Nav-bar](https://www.youtube.com/watch?v=5y6NFy5M9z8)
 
 ![Auto-collapse-code](assets/support/auto-collapse-code.jpg)
+
 ---
+
 ## **Media**
 
 * The photos and graphic images used on this site are credited to Black Eagle Films (BEF) of which I was the owner.
 * The attachment was a film based on a screenplay I wrote, directed & produced a few years ago.
 * I created the **download - press-kit pdf** and the posters images a few years ago for promotion of the film.
 * Screenshots were captured from the HD version of the film using **Mac version of Monosnap**.
+
 ---
 
 ## **Acknowledgements**
@@ -568,9 +620,16 @@ I built the site using CDN links. It is possible and may be prefered by some to 
 * **Crew**: Eno Enofik - AD / Felice Goea - DP / Julia Fecchio - Editor
 * I would like to acklowledge a few people from code-institute that helped and offered advice when I struggled to make this site.
 * **Anthony O'brian / Simen Daehlin / Mentor - Narender Singh**
+
 ---
 Disclaimer:
 
-* ### **The characters and scenarios depicted in the film  are fictitious and created by me. Therefore please note that there is no 'Father Malachi" to acknowledge**.
-* ### **Black Eagle Films(BEF) was a company I created for the film production 2013-2014, It is now dissolved. I am the sole owner of all the materials produced by the company**.
-**END**
+### The characters and scenarios depicted in the film  are fictitious and created by me
+
+### Therefore please note that there is no 'Father Malachi" to acknowledge**
+
+### Black Eagle Films(BEF) was a company I created for the film production 2013-2014, It is now dissolved
+
+### I am the sole owner of all the materials produced by the company**
+
+## **END
