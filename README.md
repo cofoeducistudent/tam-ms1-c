@@ -13,7 +13,7 @@
 
 [**1. UX**](#ux )
 
-[_a. Stratergy_](#stratergy)
+[_a. Strategy_](#stratergy)
 
 [_b. Scope_](#scope)
 
@@ -119,7 +119,7 @@ BEF have said that they require five things from the initial site release.
 
 The approach I have decided to use in completing the project and site design is the **five-stage User design** principle.
 
-* Stratergy
+* Strategy
 * Scope
 * Structure
 * Skeleton
@@ -177,7 +177,7 @@ To Validate the need for the features, I carried out a **User Story** process. T
 
 #### User Stories
 
-**User** = A Typical end user
+**User** = A Typical end-user
 **Owner** = BEF
 
 |User Story Element|User Type| Feature|Reason/Goal|
@@ -221,7 +221,7 @@ To Validate the need for the features, I carried out a **User Story** process. T
 |Download section|In Scope|Explicit|
 |Navigation Bar|In Scope|Implicit|
 |Legal Section|Inscope|Implicit|
-|Message Users|Out of Scope|Explict|
+|Message Users|Out of Scope|Explicit|
 
 ---
 ## **(S)tructure**
@@ -258,7 +258,7 @@ The **ROOT** folder will hold all the other folders -
 
 * For version control, I use **Git**.
 * I use **Github** to store the repository.
-Please find further deatils in technology used section
+Please find further details in technology used section
 
 
 ## Wireframes
