@@ -118,11 +118,19 @@ ul li a {
 ul li a:hover {
     color: #C3CDD4;
 }
+
+
 /* give extra head space to nav items */
 .nav-item {
+    background-color: rgb(52, 55, 59) !important;
+    opacity: 100%;
     padding-top: 10px;
     min-height: 25px;
 }
+
+
+
+
 /* Make title part ("Attachment") uppercase */
 .make-ucase {
     font-size: 2rem;
@@ -131,7 +139,7 @@ ul li a:hover {
 /* Alter tittle slightly as mouse hovers */
 .make-ucase:hover {
     font-size: 2rem;
-    
+
     -webkit-transition-property: all;
     -o-transition-property: all;
     transition-property: all;
@@ -144,6 +152,9 @@ ul li a:hover {
     font-weight: 900;
     color: #b2b4b2;
 }
+
+
+
 .release-date {
     font-size: 1rem;
 }
