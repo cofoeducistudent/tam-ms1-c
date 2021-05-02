@@ -8,11 +8,29 @@ body {
     padding: 0px;
     font-family: "Exo", sans-serif;
     /* CSS VAriable to setup global box coloring */
+
+
     --main-content-border-color: #f8f6fd;
     --spacer-border-color: #e9e9ec;
+ 
+    
+    --canvas-col:#f8f8f8;
+
+
     /* --form-boxes-border-color:#b5a9da; */
-    --form-boxes-border-color: #BBBBBE;
+    /* --form-boxes-border-color: #BBBBBE; */
+    
+    --form-boxes-border-color: rgb(145, 145, 167);
+
+
+
 }
+
+div{
+    background-color:var(--canvas-col);
+}
+ 
+
 /* Standard Navbar */
 /* Hide Navbar by making making it translucent */
 .custom-navbar-standard {
