@@ -135,6 +135,8 @@ ul li a:hover {
 .make-ucase {
     font-size: 2rem;
     text-transform: uppercase;
+
+    text-shadow: 10px 10px 10px #888888 !important;
 }
 /* Alter tittle slightly as mouse hovers */
 .make-ucase:hover {
@@ -239,15 +241,22 @@ ul li a:hover {
 .bottom-bar h1 ul li a {
     text-decoration: none;
 }
+
+
+
 .main-content a {
     color: #319fa6;
     font-size: 1rem;
+    text-shadow: 10px 10px 10px #888888;
 }
 /* make lower nav-icons pop */
 .main-content a:hover {
     color: #319fa6;
-    font-size: .75rem;
+    font-size: 1.25rem;
 }
+
+
+
 /* Ensure contact form with uses maximum width space in container */
 .contact-form {
     width: 100%;
@@ -261,10 +270,15 @@ ul li a:hover {
 }
 /* The social media icons- increase the size to stand out a bit */
 .social-media-icons {
-    font-size: 2.5em;
+
+    font-size: 2em;
 }
+
 .social-media-icons:hover {
+
+    
     color: #235b5f;
+
     -webkit-transition-property: all;
     -o-transition-property: all;
     transition-property: all;
@@ -274,12 +288,14 @@ ul li a:hover {
     -webkit-transition-duration: .5s;
     -o-transition-duration: .5s;
     transition-duration: .5s;
-    font-size: 2.25em;
+
+    font-size: 2.5em;
     padding-left: 5px;
 }
 /* class for some text to stand out */
 .stand-out-this {
-    color: #319fa6
+    color: #319fa6;
+    text-shadow: 10px 10px 10px #888888;
 }
 /* Code from Stackoverflow - Philip Feldmann */
 /* Keep text from overspilling out of columns */
@@ -289,15 +305,7 @@ ul li a:hover {
     hyphens: auto;
     word-wrap: break-word;
 }
-/* Form  name input box width */
-
-
-/* .ipb-width {
-    width: 50%;
-    border-radius: 5px;
-    border: solid 1px;
-    color: var(--form-boxes-border-color);
-} */
+ 
 
 
 
@@ -362,3 +370,16 @@ ul li a:hover {
 
     border-radius: 0px;
 }
+
+
+.drop-shadow{
+
+    box-shadow: 10px 10px 10px #888888 !important;
+}
+
+.text-shadow{
+
+    text-shadow: 10px 10px 10px #888888 !important;
+}
+
+ 
