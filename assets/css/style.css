@@ -125,10 +125,13 @@ ul li a:hover {
 }
 /* Make title part ("Attachment") uppercase */
 .make-ucase {
+    font-size: 2rem;
     text-transform: uppercase;
 }
 /* Alter tittle slightly as mouse hovers */
 .make-ucase:hover {
+    font-size: 2rem;
+    
     -webkit-transition-property: all;
     -o-transition-property: all;
     transition-property: all;
