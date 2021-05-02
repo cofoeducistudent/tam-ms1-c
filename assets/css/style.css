@@ -7,26 +7,20 @@ body {
     border: 0px;
     padding: 0px;
 
-
     font-family: 'Mulish', sans-serif;
 
     /* font-family: "Exo", sans-serif; */
     /* CSS VAriable to setup global box coloring */
 
-
     --main-content-border-color: #f8f6fd;
     --spacer-border-color: #e9e9ec;
  
-    
     --canvas-col:#f8f8f8;
-
 
     /* --form-boxes-border-color:#b5a9da; */
     /* --form-boxes-border-color: #BBBBBE; */
     
     --form-boxes-border-color: rgb(145, 145, 167);
-
-
 
 }
 
@@ -34,7 +28,6 @@ div{
     background-color:var(--canvas-col);
 }
  
-
 /* Standard Navbar */
 /* Hide Navbar by making making it translucent */
 .custom-navbar-standard {
@@ -119,7 +112,6 @@ ul li a:hover {
     color: #C3CDD4;
 }
 
-
 /* give extra head space to nav items */
 .nav-item {
     background-color: rgb(52, 55, 59) !important;
@@ -127,9 +119,6 @@ ul li a:hover {
     padding-top: 10px;
     min-height: 25px;
 }
-
-
-
 
 /* Make title part ("Attachment") uppercase */
 .make-ucase {
@@ -154,8 +143,6 @@ ul li a:hover {
     font-weight: 900;
     color: #b2b4b2;
 }
-
-
 
 .release-date {
     font-size: 1rem;
@@ -201,15 +188,12 @@ ul li a:hover {
     border-radius: 10px;
 }
 
-
 /* uniform image sizing & rounded corners*/
 .make-images-universal-size1 {
     width: 100%;
     height: auto;
     /* border-radius: 10px; */
 }
-
-
 
 .first-letter {
     font-size: 2rem;
@@ -242,8 +226,6 @@ ul li a:hover {
     text-decoration: none;
 }
 
-
-
 .main-content a {
     color: #319fa6;
     font-size: 1rem;
@@ -254,8 +236,6 @@ ul li a:hover {
     color: #319fa6;
     font-size: 1.25rem;
 }
-
-
 
 /* Ensure contact form with uses maximum width space in container */
 .contact-form {
@@ -276,7 +256,6 @@ ul li a:hover {
 
 .social-media-icons:hover {
 
-    
     color: #235b5f;
 
     -webkit-transition-property: all;
@@ -306,9 +285,6 @@ ul li a:hover {
     word-wrap: break-word;
 }
  
-
-
-
 /* Embeded video trailer size */
 .embd-video {
     width: 100%;
@@ -347,17 +323,13 @@ ul li a:hover {
     display: inline-block;
 }
 
-
 .msg-box-width{
-
 
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     
-
 }
-
 
 .navbar-toggler{
 
@@ -365,12 +337,10 @@ ul li a:hover {
 
 }
 
-
 .square-box{
 
     border-radius: 0px;
 }
-
 
 .drop-shadow{
 
